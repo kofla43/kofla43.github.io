@@ -1,0 +1,58 @@
+/* общая настройка */
+table		{text-align:justify; font-size: 15px; vertical-align:top;}
+img		{border: 0; hspace: 0; vspace: 0}
+p		{text-indent: 40px; margin-bottom: 5px; margin-top: 0px;}
+body		{font-family: Arial, Helvetica, sans-serif; background: url(../pic/bg.jpg) 50% 0% no-repeat #EBEBEB; background-attachment: fixed;}
+a:link		{color:blue; text-decoration:none;}
+a:visited	{color:blue; text-decoration:none;}
+a:hover		{color:blue; text-decoration:none;}
+a:active	{color:blue; text-decoration:none;}
+a.up		{position: fixed; top: 0px; left: 0px; width: 71px; height: 100%; display: block; opacity: 0.4; filter: alpha(opacity=40); background: url(../pic/up.png) 5px 10px no-repeat;}
+a.up:hover	{background: url(../pic/up1.png) 5px 10px no-repeat #FFF; opacity: 0.5; filter: alpha(opacity=50);}
+
+/* всплывающие пункты */
+ul.topnav span {float: right;}
+.record {padding:0; margin:0; list-style: none; width:980px; left:5px; left:5px;}
+.record a {padding:5px; padding-left:25px; display:block; font:normal bold 16px Arial,Helvetica,sans-serif; color:#000; text-decoration:none; text-align:left; cursor:pointer; background: url(../pic/Gradient980t.jpg) repeat-y;}
+.record a.lm {padding:4px; padding-left:75px; display:block; font:normal bold 15px Arial,Helvetica,sans-serif; color:#000; text-decoration:none; text-align:left; cursor:pointer; background: url(../pic/Gradient980y.jpg) repeat-y;}
+.record a.lml {padding:3px; padding-left:125px; display:block; font:normal bold 14px Arial,Helvetica,sans-serif; color:#000; text-decoration:none; text-align:left; cursor:pointer; background: url(../pic/Gradient980y.jpg) repeat-y;}
+.record a.pol {padding:0px; display:block; font:normal normal 14px Arial,Helvetica,sans-serif; color:#00F; text-align:center; cursor:pointer; background: none;}
+.record li {padding:0; margin:0; float:top; list-style: none; width:980px; border-top: 2px solid black;}
+.record li ul {padding:0; margin:0; position:relative; width:980px; list-style: none; display: none; left:0px;} 
+.record li a {-moz-transition: 0.6s; -ms-transition: 0.6s; -o-transition: 0.6s; -webkit-transition: 0.6s; transition: 0.6s;}
+.record ul.showd {display:block;}
+
+/* отобразить все новости */
+.showall {padding:0; margin:0; list-style: none;}
+.showall a.qw {padding:0px; width:980px; display:block; text-decoration:none; text-align:center; cursor:pointer; background: url(../pic/Gradient980.jpg) 50% 0% repeat-y; background-color: #d3dafe; border-left: 2px solid black; border-top: 2px solid black; border-right: 2px solid black;}
+.showall li.qw {padding:0; margin:0; float:left; list-style: none;}
+.showall li.qw ul.qw {padding:0; margin:0; position:relative; width:984px; list-style: none; display: none;} 
+
+/* банер страницы*/
+.layer1 {position: absolute; width: 791px; height: 200px; background: transparent url('../pic/head02.png') 471px 0px no-repeat; z-index: 5; font-family:"Matisse ITC", "Comic Sans MS"; font-size:28px; font-weight: bold; color:white;}
+.layer2 {position: absolute; width: 300px; height: 200px; z-index: 2;}
+.layer3 {position: absolute; left: 0px; top: 20px; width: 510px; height: 170px; text-align: center;}
+#my_slider {width:300px; height:200px; overflow: hidden; position:relative; list-style: none outside none; padding:0; margin:0;}
+#my_slider li {position: absolute; top: 0px; left: 0px; display:none;}
+#my_slider li:first-child {display:block;}
+
+/* таблицы результатов соревнований */
+.t1 {width: 100%; border-collapse: collapse; padding:0px; border: 2px solid #000; background: url(../pic/fon.png) 50% 50% no-repeat; background-attachment: fixed; background-color: #d3dafe;}
+.t1 td {text-align:center; padding: 0px 5px 0px 5px; border: 2px ridge #000;}
+.t1 tr.bo td {font-weight: bold;}
+
+/* таблица новостей */
+.ne {width: 100%; border-collapse: collapse; padding:0px; background: url(../pic/fon.png) 50% 50% no-repeat; background-attachment: fixed; background-color: #d3dafe;}
+.ne td.n1 {width: 150px; border-left: 2px solid black; border-top: 2px solid black; text-align: center;}
+.ne td.n2 {border-left: 2px solid black; border-right: 2px solid black; border-top: 2px solid black; background: url(../pic/Gradient830.jpg) repeat-y; text-align: center; font-weight: bold;}
+.ne td.n3 {vertical-align: middle; border-left: 2px solid black;  border-top: 2px solid black; text-align: center; font-size: 19px; font-weight: bold;}
+.ne td.n4 {padding: 0px 5px 0px 5px; border-left: 2px solid black; border-right: 2px solid black; border-top: 2px solid black;}
+
+.sb{width:86px;
+height:100px;
+background: url(http://kofla.ru/pic/sharelogo.png) no-repeat black;
+position:fixed; /*фиксирует блок в нормальных браузерах*/
+//position: absolute; /*для IE6, который воспринимает подобный комментарий как объявление*/
+top:expression(eval(document.documentElement.scrollTop)); /*обеспечивает горизонтальный scroll в IE6*/
+right: 0;}
+a .sb {color: white; align: center;}

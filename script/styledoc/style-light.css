@@ -1,0 +1,72 @@
+	/* логотип */
+
+div.logo		{background: #ccc;}
+
+
+
+	/* новости на главной */
+
+div.newsmain p		{color:#222;}
+
+a.dl			{background: #aaa; color:#ff0;}
+
+div.newsmain:hover a.dl	{border: 1px solid #777;}
+
+
+
+	/* центральный контент */
+
+div.ck			{background: #ccc url(../../pic/ckl.png) 0% 100% repeat-x; background-attachment:fixed; opacity: 0.82; filter:alpha(opacity=82);}
+
+div.ck1, div.ck2	{color: #222;}
+
+table th.no		{color: #222; font-weight: normal; text-shadow: #000 0 0 0px;}
+
+thead 			{background:  #888;}
+
+
+	/*стрелки направо-налево*/
+
+div.ck1 a.leftar			{background: url(../../pic/leftl.png) 0% 50% no-repeat;}
+
+div.ck1 a.rightar			{background: url(../../pic/rightl.png) 100% 50% no-repeat;}
+
+div.ck1 a.leftar:hover			{background: url(../../pic/leftla.png) 0% 50% no-repeat;}
+
+div.ck1 a.rightar:hover			{background: url(../../pic/rightla.png) 100% 50% no-repeat;}
+
+
+
+	/* фон документа */
+
+body.homepage	{background: #ccc url(../../pic/bgfl.jpg) 50% 100% no-repeat; background-size: cover; background-attachment: fixed;}
+
+body		{background: #ccc url(../../pic/bgfl.jpg) 50% 100% no-repeat; background-size: cover; background-attachment: fixed;}
+
+ 
+
+	/* расфигачивалка */
+
+.record a {background: url(../../pic/rasfl.png) 13px 0px repeat-y;}
+
+.record a.lm {background: url(../../pic/rasfl.png) 38px 0px repeat-y;}
+
+.record a.lml {background: url(../../pic/rasfl.png) 63px 0px repeat-y;}
+
+.vd {background: #aaa}
+
+
+
+	/* переключалка стилей */
+
+li.toplast a.s1 {width: 0px; display: none; height: 0px;}
+
+li.toplast a.s2 {width: 100%; display: block; height: 100%;}
+
+ul.mmenu li.toplast {background: url(../../pic/mbfsd.png) 0px 0px repeat;}
+
+
+
+	/* переключалка вкладок */
+
+.tabnav li {border: 1px solid #000; border-bottom-width:2px;}

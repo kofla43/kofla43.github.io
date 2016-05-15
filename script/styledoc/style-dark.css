@@ -1,0 +1,77 @@
+	/* логотип */
+
+div.logo		{background: #191919;}
+
+/*body.homepage div.logo	{background: #000;}*/
+
+
+
+	/* новости на главной */
+
+div.newsmain p		{color:#fff;}
+
+a.dl			{background: #000; color:#ff0;}
+
+div.newsmain:hover a.dl	{border: 1px solid white;}
+
+
+
+	/* центральный контент */
+
+div.ck			{background: #191919 url(../../pic/ck.png) 0% 100% repeat-x; background-attachment:fixed; opacity: 0.82; filter:alpha(opacity=82);}
+
+div.ck1, div.ck2	{color: #bbb;}
+
+table th.no		{color: #bbb; font-weight: normal; text-shadow: #000 0 0 0px;}
+
+thead 			{background:  #444;}
+
+
+
+	/*стрелки направо-налево*/
+
+div.ck1 a.leftar			{background: url(../../pic/left.png) 0% 50% no-repeat;}
+
+div.ck1 a.rightar			{background: url(../../pic/right.png) 100% 50% no-repeat;}
+
+div.ck1 a.leftar:hover			{background: url(../../pic/lefta.png) 0% 50% no-repeat;}
+
+div.ck1 a.rightar:hover			{background: url(../../pic/righta.png) 100% 50% no-repeat;}
+
+
+
+	/* фон документа */
+
+/*body			{background: fixed #191919 url(../../pic/ck.png) 0% 100% repeat-x;}*/
+
+body.homepage		{background: #000 url(../../pic/bgf.png) 50% 100% no-repeat; background-size: cover; background-attachment: fixed;}
+
+body			{background: #000 url(../../pic/bgf.jpg) 50% 100% no-repeat; background-size: cover; background-attachment: fixed;}
+
+ 
+
+	/* расфигачивалка */
+
+.record a {background: url(../../pic/rasfd.png) 13px 0px repeat-y;}
+
+.record a.lm {background: url(../../pic/rasfd.png) 38px 0px repeat-y;}
+
+.record a.lml {background: url(../../pic/rasfd.png) 63px 0px repeat-y;}
+
+.vd {background: #242424}
+
+
+
+	/* переключалка стилей */
+
+li.toplast a.s1 {width: 100%; display: block; height: 100%;}
+
+li.toplast a.s2 {width: 0px; display: none; height: 0px;}
+
+ul.mmenu li.toplast {background: url(../../pic/mbfsl.png) 0px 0px repeat;}
+
+
+
+	/* переключалка вкладок */
+
+.tabnav li {border: 1px solid #fff; border-bottom-width:2px;}
