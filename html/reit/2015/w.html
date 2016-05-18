@@ -25,8 +25,7 @@ document.getElementById('rightars').style.top=document.getElementById('ck1s').st
   if ((window.pageYOffset || document.documentElement.scrollTop)>(getOffset(document.getElementById('tbd1')).top-document.getElementById('logos').clientHeight))
 	{document.getElementById('thd1').style.visibility="visible";}
 	else {document.getElementById('thd1').style.visibility="hidden";}}
-function Wait(){window.scrollTo(0, document.getElementById('here').offsetTop);
-document.getElementById('thd1').style.visibility="hidden";
+function Wait(){document.getElementById('thd1').style.visibility="hidden";
 setInterval('Sizing()', 1)};
 window.onscroll = function() {if ((window.pageYOffset || document.documentElement.scrollTop)>(getOffset(document.getElementById('tbd1')).top-document.getElementById('logos').clientHeight))
 	{document.getElementById('thd1').style.visibility="visible";}
