@@ -30,15 +30,15 @@ document.getElementById('leftars').style.left=document.getElementById('ck1s').of
 document.getElementById('rightars').style.left=document.getElementById('ck1s').clientWidth+document.getElementById('ck1s').offsetLeft+'px';
 document.getElementById('leftars').style.top=document.getElementById('ck1s').style.paddingTop;
 document.getElementById('rightars').style.top=document.getElementById('ck1s').style.paddingTop;
- for (var i = 1; i <= 189; i++) {document.getElementById('x'+i).width=document.getElementById('z'+i).clientWidth};
- for (var j = 1; j <= 27; j++) {document.getElementById('thd'+j).style.top=document.getElementById('logos').clientHeight+'px';
+ for (var i = 1; i <= 203; i++) {document.getElementById('x'+i).width=document.getElementById('z'+i).clientWidth};
+ for (var j = 1; j <= 29; j++) {document.getElementById('thd'+j).style.top=document.getElementById('logos').clientHeight+'px';
   if ((window.pageYOffset || document.documentElement.scrollTop)>(getOffset(document.getElementById('tbd'+j)).top-document.getElementById('logos').clientHeight))
 	{document.getElementById('thd'+j).style.visibility="visible";}
 	else {document.getElementById('thd'+j).style.visibility="hidden";}}}
-function Wait(){for (var j = 1; j <= 27; j++) {document.getElementById('thd'+j).style.visibility="hidden"};
+function Wait(){for (var j = 1; j <= 29; j++) {document.getElementById('thd'+j).style.visibility="hidden"};
 setInterval('Sizing()', 1)};
 window.onscroll = function() {
- for (var k = 1; k <= 27; k++) {
+ for (var k = 1; k <= 29; k++) {
  if ((window.pageYOffset || document.documentElement.scrollTop)>(getOffset(document.getElementById('tbd'+k)).top-document.getElementById('logos').clientHeight))
 	{document.getElementById('thd'+k).style.visibility="visible";}
 	else {document.getElementById('thd'+k).style.visibility="hidden";}}}
@@ -104,47 +104,49 @@ window.onscroll = function() {
 <tr><td>19</td>	<td>Закирзянов Азат</td>	<td>2002</td>	<td>Вятские Поляны</td>	<td>7,9</td>	<td>I юн</td>	<td>Лебедев В.И.</td></tr>
 <tr><td>19</td>	<td>Анисимов Дмитрий</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>7,9</td>	<td>I юн</td>	<td>Попцов А.С.</td></tr>
 <tr><td>19</td>	<td>Корчемкин Демид</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>7,9</td>	<td>I юн</td>	<td>Яровиков М.Н./Полушкина М.В.</td></tr>
-<tr><td>23</td>	<td>Гребенкин Тимур</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>8,0</td>	<td>I юн</td>	<td>Рябова Э.Б.</td></tr>
-<tr><td>23</td>	<td>Токмолаев Алексей</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>8,0</td>	<td>I юн</td>	<td>Жерносек Е.В.</td></tr>
-<tr><td>23</td>	<td>Краев Олег</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>8,0</td>	<td>I юн</td>	<td>Ситникова Т.И.</td></tr>
-<tr><td>23</td>	<td>Корнейцев Павел</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>8,0</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>23</td>	<td>Сведенцов Константин</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>8,0</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>28</td>	<td>Гущин Кирилл</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>8,1</td>	<td>I юн</td>	<td>Ситникова Т.И.</td></tr>
-<tr><td>28</td>	<td>Касимов Егор</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>8,1</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>28</td>	<td>Сайитов Азиз</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>8,1</td>	<td>I юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>28</td>	<td>Мохов Данила</td>	<td>2001</td>	<td>ВятСШОР/51 школа</td>	<td>8,1</td>	<td>I юн</td>	<td>Наговицына Е.В.</td></tr>
-<tr><td>28</td>	<td>Коряковцев Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>8,1</td>	<td>I юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>33</td>	<td>Бартов Никита</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>8,2</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>33</td>	<td>Кислицын Даниил</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>8,2</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>33</td>	<td>Зверев Никита</td>	<td>2002</td>	<td>Вятские Поляны</td>	<td>8,2</td>	<td>I юн</td>	<td>Лебедев В.И.</td></tr>
-<tr><td>33</td>	<td>Финевич Игорь</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>8,2</td>	<td>I юн</td>	<td>Холстинина Н.Р.</td></tr>
-<tr><td>37</td>	<td>Бобков Иван</td>	<td>2002</td>	<td>ВятОСДЮСШОР</td>	<td>8,3</td>	<td>II юн</td>	<td>Холстинина Н.Р.</td></tr>
-<tr><td>37</td>	<td>Исупов Владимир</td>	<td>2002</td>	<td>ДЮСШ-2/ППС</td>	<td>8,3</td>	<td>II юн</td>	<td>Платунов Н.В.</td></tr>
-<tr><td>37</td>	<td>Ложкин Роман</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>8,3</td>	<td>II юн</td>	<td>Рябова Э.Б.</td></tr>
-<tr><td>37</td>	<td>Хомук Никита</td>	<td>2001</td>	<td>ВятСШОР</td>	<td>8,3</td>	<td>II юн</td>	<td>Холстинина Н.Р.</td></tr>
-<tr><td>37</td>	<td>Пупышев Иван</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>8,3</td>	<td>II юн</td>	<td>Жерносек Е.В.</td></tr>
-<tr><td>37</td>	<td>Мартынов Артем</td>	<td>2002</td>	<td>Юность</td>	<td>8,3</td>	<td>II юн</td>	<td>Казакова З.А./Платунова М.Н.</td></tr>
-<tr><td>43</td>	<td>Суслов Александр</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>8,5</td>	<td>II юн</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
-<tr><td>44</td>	<td>Девятериков Владислав</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>8,6</td>	<td>II юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>44</td>	<td>Кокорин Илья</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>8,6</td>	<td>II юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>44</td>	<td>Преснецов Глеб</td>	<td>2002</td>	<td>Юность</td>	<td>8,6</td>	<td>II юн</td>	<td>Филимонова С.А.</td></tr>
-<tr><td>47</td>	<td>Зырянов Евгений</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>8,8</td>	<td>III юн</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>47</td>	<td>Коврижных Артур</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>8,8</td>	<td>III юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>47</td>	<td>Касимов Кирилл</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>8,8</td>	<td>III юн</td>	<td>Холстинина Н.Р.</td></tr>
-<tr><td>50</td>	<td>Русинов Александр</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>8,9</td>	<td>III юн</td>	<td>Хоменко М.М.</td></tr>
-<tr><td>50</td>	<td>Деркачев Андрей</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>8,9</td>	<td>III юн</td>	<td>Ситникова Т.И.</td></tr>
-<tr><td>50</td>	<td>Ефремов Евгений</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>8,9</td>	<td>III юн</td>	<td>Жерносек Е.В.</td></tr>
-<tr><td>50</td>	<td>Назаров Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>8,9</td>	<td>III юн</td>	<td>Рябова Э.Б.</td></tr>
-<tr><td>54</td>	<td>Теплых Данил</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>9,0</td>	<td>III юн</td>	<td>Холстинина Н.Р.</td></tr>
-<tr><td>55</td>	<td>Торхов Артем</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>9,1</td>	<td>III юн</td>	<td>Хоменко М.М.</td></tr>
-<tr><td>55</td>	<td>Усатов Михаил</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>9,1</td>	<td>III юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>57</td>	<td>Медуницын Савва</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>9,2</td>	<td>III юн</td>	<td>Рябова Э.Б.</td></tr>
-<tr><td>58</td>	<td>Шурыгин Данил</td>	<td>2001</td>	<td>Яранск</td>	<td>9,3</td>	<td>III юн</td>	<td>Шастина С.М.</td></tr>
-<tr><td>59</td>	<td>Марков Михаил</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>9,4</td>	<td>&nbsp</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
-<tr><td>60</td>	<td>Крупин Георгий</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>9,5</td>	<td>&nbsp</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
-<tr><td>60</td>	<td>Лучкин Евгений</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>9,5</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>60</td>	<td>Крутиков Никита</td>	<td>2001</td>	<td>ВятСШОР/51 школа</td>	<td>9,5</td>	<td>&nbsp</td>	<td>Наговицына Е.В.</td></tr>
-<tr><td>63</td>	<td>Кропанев Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>10,6</td>	<td>&nbsp</td>	<td>Жерносек Е.В.</td></tr>
+<tr><td>19</td>	<td>Потапов Роман</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>7,9</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>24</td>	<td>Гребенкин Тимур</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>8,0</td>	<td>I юн</td>	<td>Рябова Э.Б.</td></tr>
+<tr><td>24</td>	<td>Токмолаев Алексей</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>8,0</td>	<td>I юн</td>	<td>Жерносек Е.В.</td></tr>
+<tr><td>24</td>	<td>Краев Олег</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>8,0</td>	<td>I юн</td>	<td>Ситникова Т.И.</td></tr>
+<tr><td>24</td>	<td>Корнейцев Павел</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>8,0</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>24</td>	<td>Сведенцов Константин</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>8,0</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>24</td>	<td>Сайитов Азизбек</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>8,0</td>	<td>I юн</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>30</td>	<td>Гущин Кирилл</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>8,1</td>	<td>I юн</td>	<td>Ситникова Т.И.</td></tr>
+<tr><td>30</td>	<td>Касимов Егор</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>8,1</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>30</td>	<td>Мохов Данила</td>	<td>2001</td>	<td>ВятСШОР/51 школа</td>	<td>8,1</td>	<td>I юн</td>	<td>Наговицына Е.В.</td></tr>
+<tr><td>30</td>	<td>Коряковцев Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>8,1</td>	<td>I юн</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>30</td>	<td>Кислицын Даниил</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>8,1</td>	<td>I юн</td>	<td>Северюхина М.А.</td></tr>
+<tr><td>35</td>	<td>Бартов Никита</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>8,2</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>35</td>	<td>Зверев Никита</td>	<td>2002</td>	<td>Вятские Поляны</td>	<td>8,2</td>	<td>I юн</td>	<td>Лебедев В.И.</td></tr>
+<tr><td>35</td>	<td>Финевич Игорь</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>8,2</td>	<td>I юн</td>	<td>Холстинина Н.Р.</td></tr>
+<tr><td>38</td>	<td>Бобков Иван</td>	<td>2002</td>	<td>ВятОСДЮСШОР</td>	<td>8,3</td>	<td>II юн</td>	<td>Холстинина Н.Р.</td></tr>
+<tr><td>38</td>	<td>Исупов Владимир</td>	<td>2002</td>	<td>ДЮСШ-2/ППС</td>	<td>8,3</td>	<td>II юн</td>	<td>Платунов Н.В.</td></tr>
+<tr><td>38</td>	<td>Ложкин Роман</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>8,3</td>	<td>II юн</td>	<td>Рябова Э.Б.</td></tr>
+<tr><td>38</td>	<td>Хомук Никита</td>	<td>2001</td>	<td>ВятСШОР</td>	<td>8,3</td>	<td>II юн</td>	<td>Холстинина Н.Р.</td></tr>
+<tr><td>38</td>	<td>Пупышев Иван</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>8,3</td>	<td>II юн</td>	<td>Жерносек Е.В.</td></tr>
+<tr><td>38</td>	<td>Мартынов Артем</td>	<td>2002</td>	<td>Юность</td>	<td>8,3</td>	<td>II юн</td>	<td>Казакова З.А./Платунова М.Н.</td></tr>
+<tr><td>44</td>	<td>Девятериков Владислав</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>8,4</td>	<td>II юн</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>45</td>	<td>Суслов Александр</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>8,5</td>	<td>II юн</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
+<tr><td>46</td>	<td>Кокорин Илья</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>8,6</td>	<td>II юн</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>46</td>	<td>Преснецов Глеб</td>	<td>2002</td>	<td>Юность</td>	<td>8,6</td>	<td>II юн</td>	<td>Филимонова С.А.</td></tr>
+<tr><td>48</td>	<td>Зырянов Евгений</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>8,8</td>	<td>III юн</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>48</td>	<td>Коврижных Артур</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>8,8</td>	<td>III юн</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>48</td>	<td>Касимов Кирилл</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>8,8</td>	<td>III юн</td>	<td>Холстинина Н.Р.</td></tr>
+<tr><td>51</td>	<td>Русинов Александр</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>8,9</td>	<td>III юн</td>	<td>Хоменко М.М.</td></tr>
+<tr><td>51</td>	<td>Деркачев Андрей</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>8,9</td>	<td>III юн</td>	<td>Ситникова Т.И.</td></tr>
+<tr><td>51</td>	<td>Ефремов Евгений</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>8,9</td>	<td>III юн</td>	<td>Жерносек Е.В.</td></tr>
+<tr><td>51</td>	<td>Назаров Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>8,9</td>	<td>III юн</td>	<td>Рябова Э.Б.</td></tr>
+<tr><td>55</td>	<td>Теплых Данил</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>9,0</td>	<td>III юн</td>	<td>Холстинина Н.Р.</td></tr>
+<tr><td>56</td>	<td>Торхов Артем</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>9,1</td>	<td>III юн</td>	<td>Хоменко М.М.</td></tr>
+<tr><td>56</td>	<td>Усатов Михаил</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>9,1</td>	<td>III юн</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>58</td>	<td>Медуницын Савва</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>9,2</td>	<td>III юн</td>	<td>Рябова Э.Б.</td></tr>
+<tr><td>59</td>	<td>Шурыгин Данил</td>	<td>2001</td>	<td>Яранск</td>	<td>9,3</td>	<td>III юн</td>	<td>Шастина С.М.</td></tr>
+<tr><td>60</td>	<td>Марков Михаил</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>9,4</td>	<td>&nbsp</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
+<tr><td>60</td>	<td>Чернышев Дмитрий</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>9,4</td>	<td>&nbsp</td>	<td>Рябова Э.Б.</td></tr>
+<tr><td>62</td>	<td>Крупин Георгий</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>9,5</td>	<td>&nbsp</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
+<tr><td>62</td>	<td>Лучкин Евгений</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>9,5</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>62</td>	<td>Крутиков Никита</td>	<td>2001</td>	<td>ВятСШОР/51 школа</td>	<td>9,5</td>	<td>&nbsp</td>	<td>Наговицына Е.В.</td></tr>
+<tr><td>65</td>	<td>Кропанев Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>10,6</td>	<td>&nbsp</td>	<td>Жерносек Е.В.</td></tr>
 						
 </tbody></table></div></ul></li><li><a href="#">100 метров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd2"> <tr><th id="x8">Рейтинг</th><th id="x9">Фамилия Имя</th><th id="x10">Год</th><th id="x11">Организация</th><th id="x12">Результат</th><th id="x13">Разряд</th><th id="x14">Тренер</th></tr></thead><tbody id="tbd2"><th id="z8">Рейтинг</th><th id="z9">Фамилия Имя</th><th id="z10">Год</th><th id="z11">Организация</th><th id="z12">Результат</th><th id="z13">Разряд</th><th id="z14">Тренер</th></tr>						
 						
@@ -174,7 +176,7 @@ window.onscroll = function() {
 <tr><td>20</td>	<td>Ермолов Илья</td>	<td>2001</td>	<td>Яранск</td>	<td>12,9</td>	<td>I юн</td>	<td>Емашова Л.Г.</td></tr>
 <tr><td>20</td>	<td>Финевич Игорь</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>12,9</td>	<td>I юн</td>	<td>Холстинина Н.Р.</td></tr>
 <tr><td>20</td>	<td>Анисимов Дмитрий</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>12,9</td>	<td>I юн</td>	<td>Попцов А.С.</td></tr>
-<tr><td>20</td>	<td>Сайитов Азиз</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>12,9</td>	<td>I юн</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>20</td>	<td>Сайитов Азизбек</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>12,9</td>	<td>I юн</td>	<td>Михайлова Л.А.</td></tr>
 <tr><td>20</td>	<td>Белобородов Данил</td>	<td>2002</td>	<td>ВятСШОР/Зуевка</td>	<td>12,9</td>	<td>I юн</td>	<td>Джавадова Л.Н.</td></tr>
 <tr><td>29</td>	<td>Швецов Никита</td>	<td>2001</td>	<td>Верхошижемский р-н</td>	<td>13,1</td>	<td>I юн</td>	<td>Наймушина И.В.</td></tr>
 <tr><td>29</td>	<td>Ложкин Роман</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>13,1</td>	<td>I юн</td>	<td>Рябова Э.Б.</td></tr>
@@ -201,26 +203,27 @@ window.onscroll = function() {
 <tr><td>50</td>	<td>Суслов Александр</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>13,7</td>	<td>II юн</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
 <tr><td>50</td>	<td>Усков Андрей</td>	<td>2001</td>	<td>Юность</td>	<td>13,7</td>	<td>II юн</td>	<td>Егорова Л.Г./Филимонова С.А.</td></tr>
 <tr><td>53</td>	<td>Кокорин Илья</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>13,8</td>	<td>II юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>54</td>	<td>Русских Владислав</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>13,9</td>	<td>II юн</td>	<td>Рябова Э.Б.</td></tr>
-<tr><td>54</td>	<td>Коряковцев Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>13,9</td>	<td>II юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>54</td>	<td>Черемискин Матвей</td>	<td>2002</td>	<td>ВятСШОР/Кумены</td>	<td>13,9</td>	<td>II юн</td>	<td>Альминова Н.Л.</td></tr>
-<tr><td>54</td>	<td>Шаклеин Данила</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>13,9</td>	<td>II юн</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>58</td>	<td>Бартов Никита</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>14,0</td>	<td>II юн</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>59</td>	<td>Чистяков Руслан</td>	<td>2001</td>	<td>Юность/Мурыгино</td>	<td>14,2</td>	<td>II юн</td>	<td>Караулов С.М.</td></tr>
-<tr><td>60</td>	<td>Деркачев Андрей</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>14,4</td>	<td>III юн</td>	<td>Ситникова Т.И.</td></tr>
-<tr><td>61</td>	<td>Медуницын Савва</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>14,7</td>	<td>III юн</td>	<td>Рябова Э.Б.</td></tr>
-<tr><td>61</td>	<td>Марков Михаил</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>14,7</td>	<td>III юн</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
-<tr><td>63</td>	<td>Пермяков Никита</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>14,9</td>	<td>III юн</td>	<td>Марков Я.В.</td></tr>
-<tr><td>64</td>	<td>Ефремов Евгений</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>15,0</td>	<td>III юн</td>	<td>Жерносек Е.В.</td></tr>
-<tr><td>64</td>	<td>Кокорин Владислав</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>15,0</td>	<td>III юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>66</td>	<td>Назаров Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>15,1</td>	<td>III юн</td>	<td>Рябова Э.Б.</td></tr>
-<tr><td>67</td>	<td>Крупин Георгий</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>15,4</td>	<td>&nbsp</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
-<tr><td>67</td>	<td>Шиляев Максим</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>15,4</td>	<td>&nbsp</td>	<td>Попцова Н.Б.</td></tr>
-<tr><td>69</td>	<td>Мусихин Даниил</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>15,6</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>70</td>	<td>Лучкин Евгений</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>15,9</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>71</td>	<td>Заболотский Владимир</td>	<td>2002</td>	<td>Юность/Мурыгино</td>	<td>16,0</td>	<td>&nbsp</td>	<td>Караулов С.М.</td></tr>
-<tr><td>72</td>	<td>Колупаев Данил</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>16,3</td>	<td>&nbsp</td>	<td>Рябова Э.Б.</td></tr>
-<tr><td>73</td>	<td>Ковылев Андрей</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>16,4</td>	<td>&nbsp</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
+<tr><td>53</td>	<td>Предин Максим</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>13,8</td>	<td>II юн</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>55</td>	<td>Русских Владислав</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>13,9</td>	<td>II юн</td>	<td>Рябова Э.Б.</td></tr>
+<tr><td>55</td>	<td>Коряковцев Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>13,9</td>	<td>II юн</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>55</td>	<td>Черемискин Матвей</td>	<td>2002</td>	<td>ВятСШОР/Кумены</td>	<td>13,9</td>	<td>II юн</td>	<td>Альминова Н.Л.</td></tr>
+<tr><td>55</td>	<td>Шаклеин Данила</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>13,9</td>	<td>II юн</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>59</td>	<td>Бартов Никита</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>14,0</td>	<td>II юн</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>60</td>	<td>Чистяков Руслан</td>	<td>2001</td>	<td>Юность/Мурыгино</td>	<td>14,2</td>	<td>II юн</td>	<td>Караулов С.М.</td></tr>
+<tr><td>61</td>	<td>Деркачев Андрей</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>14,4</td>	<td>III юн</td>	<td>Ситникова Т.И.</td></tr>
+<tr><td>62</td>	<td>Медуницын Савва</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>14,7</td>	<td>III юн</td>	<td>Рябова Э.Б.</td></tr>
+<tr><td>62</td>	<td>Марков Михаил</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>14,7</td>	<td>III юн</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
+<tr><td>64</td>	<td>Пермяков Никита</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>14,9</td>	<td>III юн</td>	<td>Марков Я.В.</td></tr>
+<tr><td>65</td>	<td>Ефремов Евгений</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>15,0</td>	<td>III юн</td>	<td>Жерносек Е.В.</td></tr>
+<tr><td>65</td>	<td>Кокорин Владислав</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>15,0</td>	<td>III юн</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>67</td>	<td>Назаров Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>15,1</td>	<td>III юн</td>	<td>Рябова Э.Б.</td></tr>
+<tr><td>68</td>	<td>Крупин Георгий</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>15,4</td>	<td>&nbsp</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
+<tr><td>68</td>	<td>Шиляев Максим</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>15,4</td>	<td>&nbsp</td>	<td>Попцова Н.Б.</td></tr>
+<tr><td>70</td>	<td>Мусихин Даниил</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>15,6</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>71</td>	<td>Лучкин Евгений</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>15,9</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>72</td>	<td>Заболотский Владимир</td>	<td>2002</td>	<td>Юность/Мурыгино</td>	<td>16,0</td>	<td>&nbsp</td>	<td>Караулов С.М.</td></tr>
+<tr><td>73</td>	<td>Колупаев Данил</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>16,3</td>	<td>&nbsp</td>	<td>Рябова Э.Б.</td></tr>
+<tr><td>74</td>	<td>Ковылев Андрей</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>16,4</td>	<td>&nbsp</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
 						
 </tbody></table></div></ul></li><li><a href="#">200 метров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd3"> <tr><th id="x15">Рейтинг</th><th id="x16">Фамилия Имя</th><th id="x17">Год</th><th id="x18">Организация</th><th id="x19">Результат</th><th id="x20">Разряд</th><th id="x21">Тренер</th></tr></thead><tbody id="tbd3"><th id="z15">Рейтинг</th><th id="z16">Фамилия Имя</th><th id="z17">Год</th><th id="z18">Организация</th><th id="z19">Результат</th><th id="z20">Разряд</th><th id="z21">Тренер</th></tr>						
 						
@@ -239,7 +242,7 @@ window.onscroll = function() {
 <tr><td>11</td>	<td>Курасбедиани Григорий</td>	<td>2002</td>	<td>Уржум</td>	<td>26,9</td>	<td>I юн</td>	<td>Иванов А.Е.</td></tr>
 <tr><td>14</td>	<td>Ярославцев Максим</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>27,1</td>	<td>I юн</td>	<td>Михайлова Л.А.</td></tr>
 <tr><td>15</td>	<td>Швецов Никита</td>	<td>2001</td>	<td>Верхошижемский р-н</td>	<td>27,2</td>	<td>I юн</td>	<td>Наймушина И.В.</td></tr>
-<tr><td>15</td>	<td>Сайитов Азиз</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>27,2</td>	<td>I юн</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>15</td>	<td>Сайитов Азизбек</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>27,2</td>	<td>I юн</td>	<td>Михайлова Л.А.</td></tr>
 <tr><td>17</td>	<td>Токмолаев Алексей</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>27,3</td>	<td>I юн</td>	<td>Жерносек Е.В.</td></tr>
 <tr><td>17</td>	<td>Калинин Григорий</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>27,3</td>	<td>I юн</td>	<td>Крутиков К.В.</td></tr>
 <tr><td>17</td>	<td>Бурков Яков</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>27,3</td>	<td>I юн</td>	<td>Яровиков М.Н./Полушкина М.В.</td></tr>
@@ -279,7 +282,7 @@ window.onscroll = function() {
 <tr><td>12</td>	<td>Полушин Александр</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>46,5</td>	<td>I юн</td>	<td>Михайлова Л.А.</td></tr>
 <tr><td>13</td>	<td>Хомук Никита</td>	<td>2001</td>	<td>ВятСШОР</td>	<td>46,9</td>	<td>I юн</td>	<td>Холстинина Н.Р.</td></tr>
 <tr><td>14</td>	<td>Девятериков Владислав</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>47,0</td>	<td>I юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>15</td>	<td>Сайитов Азиз</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>47,2</td>	<td>II юн</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>15</td>	<td>Сайитов Азизбек</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>47,2</td>	<td>II юн</td>	<td>Михайлова Л.А.</td></tr>
 <tr><td>16</td>	<td>Ложкин Роман</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>47,8</td>	<td>II юн</td>	<td>Рябова Э.Б.</td></tr>
 <tr><td>17</td>	<td>Пупышев Иван</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>48,0</td>	<td>II юн</td>	<td>Жерносек Е.В.</td></tr>
 <tr><td>18</td>	<td>Ярославцев Максим</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>48,3</td>	<td>II юн</td>	<td>Михайлова Л.А.</td></tr>
@@ -426,7 +429,7 @@ window.onscroll = function() {
 <tr><td>34</td>	<td>Шиндряев Дмитрий</td>	<td>2001</td>	<td>Юность</td>	<td>2.36,7</td>	<td>II юн</td>	<td>Егорова Л.Г./Казакова З.А.</td></tr>
 <tr><td>35</td>	<td>Кофанов Данил</td>	<td>2001</td>	<td>Кумены</td>	<td>2.37,5</td>	<td>II юн</td>	<td>Альминова А.А.</td></tr>
 <tr><td>35</td>	<td>Усатов Михаил</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>2.37,5</td>	<td>II юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>37</td>	<td>Сайитов Азиз</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>2.37,7</td>	<td>II юн</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>37</td>	<td>Сайитов Азизбек</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>2.37,7</td>	<td>II юн</td>	<td>Михайлова Л.А.</td></tr>
 <tr><td>38</td>	<td>Русских Владислав</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>2.39,0</td>	<td>II юн</td>	<td>Рябова Э.Б.</td></tr>
 <tr><td>39</td>	<td>Полушин Александр</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>2.39,7</td>	<td>II юн</td>	<td>Михайлова Л.А.</td></tr>
 <tr><td>40</td>	<td>Вагнер Владислав</td>	<td>2001</td>	<td>ВятСШОР</td>	<td>2.41,9</td>	<td>III юн</td>	<td>Трушков А.Н./Трушкова М.В.</td></tr>
@@ -440,30 +443,36 @@ window.onscroll = function() {
 						
 </tbody></table></div></ul></li><li><a href="#">1 000 метров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd8"> <tr><th id="x50">Рейтинг</th><th id="x51">Фамилия Имя</th><th id="x52">Год</th><th id="x53">Организация</th><th id="x54">Результат</th><th id="x55">Разряд</th><th id="x56">Тренер</th></tr></thead><tbody id="tbd8"><th id="z50">Рейтинг</th><th id="z51">Фамилия Имя</th><th id="z52">Год</th><th id="z53">Организация</th><th id="z54">Результат</th><th id="z55">Разряд</th><th id="z56">Тренер</th></tr>						
 						
-<tr><td>1</td>	<td>Валеев Ярослав</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>2.49,9</td>	<td>III</td>	<td>Хоменко М.М.</td></tr>
+<tr><td>1</td>	<td>Валеев Ярослав</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>2.48,7</td>	<td>III</td>	<td>Хоменко М.М.</td></tr>
 <tr><td>2</td>	<td>Патрушев Илья</td>	<td>2001</td>	<td>ВятСШОР/51 школа</td>	<td>2.57,6</td>	<td>III</td>	<td>Наговицына Е.В.</td></tr>
-<tr><td>3</td>	<td>Крупин Валерий</td>	<td>2001</td>	<td>ВятСШОР/51 школа</td>	<td>3.00,5</td>	<td>I юн</td>	<td>Наговицына Е.В.</td></tr>
-<tr><td>4</td>	<td>Соболев Кирилл</td>	<td>2002</td>	<td>ВятСШОР/Зуевка</td>	<td>3.05,8</td>	<td>I юн</td>	<td>Джавадова Л.Н.</td></tr>
-<tr><td>5</td>	<td>Кондратьев Глеб</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>3.06,4</td>	<td>I юн</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
-<tr><td>6</td>	<td>Бутин Лев</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>3.07,1</td>	<td>I юн</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
-<tr><td>7</td>	<td>Ишутинов Евгений</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>3.10,6</td>	<td>I юн</td>	<td>Хоменко М.М.</td></tr>
-<tr><td>8</td>	<td>Анисимов Дмитрий</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>3.12,8</td>	<td>I юн</td>	<td>Попцов А.С.</td></tr>
-<tr><td>9</td>	<td>Корчемкин Демид</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>3.14,0</td>	<td>I юн</td>	<td>Яровиков М.Н./Полушкина М.В.</td></tr>
-<tr><td>10</td>	<td>Касимов Егор</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>3.14,1</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>11</td>	<td>Лунеев Павел</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>3.15,3</td>	<td>II юн</td>	<td>Ситникова Т.И.</td></tr>
-<tr><td>12</td>	<td>Гамисония Владислав</td>	<td>2002</td>	<td>Юность</td>	<td>3.16,6</td>	<td>II юн</td>	<td>Егорова Л.Г./Ковязина Е.А.</td></tr>
-<tr><td>13</td>	<td>Вахрушев Олег</td>	<td>2002</td>	<td>Юность</td>	<td>3.16,7</td>	<td>II юн</td>	<td>Кощеев Н.М.</td></tr>
-<tr><td>14</td>	<td>Коряковцев Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>3.25,9</td>	<td>II юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>15</td>	<td>Корнейцев Павел</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>3.26,8</td>	<td>II юн</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>16</td>	<td>Вершинин Роман</td>	<td>2001</td>	<td>ВятСШОР</td>	<td>3.28,5</td>	<td>II юн</td>	<td>Трушков А.Н./Трушкова М.В.</td></tr>
-<tr><td>17</td>	<td>Дрожачих Олег</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>3.28,8</td>	<td>II юн</td>	<td>Марков Я.В.</td></tr>
-<tr><td>18</td>	<td>Ложкин Роман</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>3.29,0</td>	<td>II юн</td>	<td>Рябова Э.Б.</td></tr>
-<tr><td>19</td>	<td>Чикишев Степан</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>3.30,4</td>	<td>II юн</td>	<td>Рябова Э.Б.</td></tr>
-<tr><td>20</td>	<td>Шиндряев Дмитрий</td>	<td>2001</td>	<td>Юность</td>	<td>3.30,8</td>	<td>II юн</td>	<td>Егорова Л.Г./Казакова З.А.</td></tr>
-<tr><td>21</td>	<td>Русских Владислав</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>3.31,9</td>	<td>II юн</td>	<td>Рябова Э.Б.</td></tr>
-<tr><td>22</td>	<td>Сайитов Азиз</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>3.33,2</td>	<td>II юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>23</td>	<td>Ярославцев Максим</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>3.36,4</td>	<td>III юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>24</td>	<td>Мохов Данила</td>	<td>2001</td>	<td>ВятСШОР/51 школа</td>	<td>3.46,7</td>	<td>III юн</td>	<td>Наговицына Е.В.</td></tr>
+<tr><td>3</td>	<td>Кондратьев Глеб</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>2.58,1</td>	<td>III</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
+<tr><td>4</td>	<td>Крупин Валерий</td>	<td>2001</td>	<td>ВятСШОР/51 школа</td>	<td>3.00,5</td>	<td>I юн</td>	<td>Наговицына Е.В.</td></tr>
+<tr><td>5</td>	<td>Сайитов Азизбек</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>3.00,6</td>	<td>I юн</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>6</td>	<td>Потапов Роман</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>3.03,2</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>7</td>	<td>Девятериков Владислав</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>3.05,1</td>	<td>I юн</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>8</td>	<td>Соболев Кирилл</td>	<td>2002</td>	<td>ВятСШОР/Зуевка</td>	<td>3.05,8</td>	<td>I юн</td>	<td>Джавадова Л.Н.</td></tr>
+<tr><td>9</td>	<td>Бутин Лев</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>3.07,1</td>	<td>I юн</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
+<tr><td>10</td>	<td>Ишутинов Евгений</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>3.10,6</td>	<td>I юн</td>	<td>Хоменко М.М.</td></tr>
+<tr><td>10</td>	<td>Касимов Егор</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>3.10,6</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>12</td>	<td>Анисимов Дмитрий</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>3.12,8</td>	<td>I юн</td>	<td>Попцов А.С.</td></tr>
+<tr><td>13</td>	<td>Лунеев Павел</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>3.12,9</td>	<td>I юн</td>	<td>Ситникова Т.И.</td></tr>
+<tr><td>14</td>	<td>Корчемкин Демид</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>3.14,0</td>	<td>I юн</td>	<td>Яровиков М.Н./Полушкина М.В.</td></tr>
+<tr><td>15</td>	<td>Коряковцев Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>3.15,8</td>	<td>II юн</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>16</td>	<td>Гамисония Владислав</td>	<td>2002</td>	<td>Юность</td>	<td>3.16,6</td>	<td>II юн</td>	<td>Егорова Л.Г./Ковязина Е.А.</td></tr>
+<tr><td>17</td>	<td>Вахрушев Олег</td>	<td>2002</td>	<td>Юность</td>	<td>3.16,7</td>	<td>II юн</td>	<td>Кощеев Н.М.</td></tr>
+<tr><td>18</td>	<td>Корнейцев Павел</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>3.17,1</td>	<td>II юн</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>19</td>	<td>Шиндряев Дмитрий</td>	<td>2001</td>	<td>Юность</td>	<td>3.20,3</td>	<td>II юн</td>	<td>Егорова Л.Г./Казакова З.А.</td></tr>
+<tr><td>20</td>	<td>Кислицын Даниил</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>3.21,8</td>	<td>II юн</td>	<td>Северюхина М.А.</td></tr>
+<tr><td>21</td>	<td>Сведенцов Константин</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>3.22,1</td>	<td>II юн</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>22</td>	<td>Бартов Никита</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>3.28,1</td>	<td>II юн</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>23</td>	<td>Вершинин Роман</td>	<td>2001</td>	<td>ВятСШОР</td>	<td>3.28,5</td>	<td>II юн</td>	<td>Трушков А.Н./Трушкова М.В.</td></tr>
+<tr><td>24</td>	<td>Дрожачих Олег</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>3.28,8</td>	<td>II юн</td>	<td>Марков Я.В.</td></tr>
+<tr><td>25</td>	<td>Ложкин Роман</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>3.29,0</td>	<td>II юн</td>	<td>Рябова Э.Б.</td></tr>
+<tr><td>26</td>	<td>Чикишев Степан</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>3.30,4</td>	<td>II юн</td>	<td>Рябова Э.Б.</td></tr>
+<tr><td>27</td>	<td>Русских Владислав</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>3.31,9</td>	<td>II юн</td>	<td>Рябова Э.Б.</td></tr>
+<tr><td>28</td>	<td>Ярославцев Максим</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>3.35,9</td>	<td>III юн</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>29</td>	<td>Мохов Данила</td>	<td>2001</td>	<td>ВятСШОР/51 школа</td>	<td>3.46,7</td>	<td>III юн</td>	<td>Наговицына Е.В.</td></tr>
+<tr><td>30</td>	<td>Чернышев Дмитрий</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>3.49,1</td>	<td>III юн</td>	<td>Рябова Э.Б.</td></tr>
 						
 </tbody></table></div></ul></li><li><a href="#">1 500 метров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd9"> <tr><th id="x57">Рейтинг</th><th id="x58">Фамилия Имя</th><th id="x59">Год</th><th id="x60">Организация</th><th id="x61">Результат</th><th id="x62">Разряд</th><th id="x63">Тренер</th></tr></thead><tbody id="tbd9"><th id="z57">Рейтинг</th><th id="z58">Фамилия Имя</th><th id="z59">Год</th><th id="z60">Организация</th><th id="z61">Результат</th><th id="z62">Разряд</th><th id="z63">Тренер</th></tr>						
 						
@@ -491,6 +500,24 @@ window.onscroll = function() {
 <tr><td>2</td>	<td>Вершинин Роман</td>	<td>2001</td>	<td>ВятСШОР</td>	<td>7.02,5</td>	<td>&nbsp</td>	<td>Трушков А.Н./Трушкова М.В.</td></tr>
 <tr><td>3</td>	<td>Русских Владислав</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>7.11,4</td>	<td>&nbsp</td>	<td>Рябова Э.Б.</td></tr>
 						
+</tbody></table></div></ul></li><li><a href="#">Кросс 2 километра</a><ul><div><table cellpadding="0" class="t1"><thead id="thd28"> <tr><th id="x190">Рейтинг</th><th id="x191">Фамилия Имя</th><th id="x192">Год</th><th id="x193">Организация</th><th id="x194">Результат</th><th id="x195">Разряд</th><th id="x196">Тренер</th></tr></thead><tbody id="tbd28"><th id="z190">Рейтинг</th><th id="z191">Фамилия Имя</th><th id="z192">Год</th><th id="z193">Организация</th><th id="z194">Результат</th><th id="z195">Разряд</th><th id="z196">Тренер</th></tr>						
+
+<tr><td>1</td>	<td>Соболев Кирилл</td>	<td>2002</td>	<td>ВятСШОР/Зуевка</td>	<td>6.33,8</td>	<td>III</td>	<td>Джавадова Л.Н.</td></tr>
+<tr><td>2</td>	<td>Белобородов Данил</td>	<td>2002</td>	<td>ВятСШОР/Зуевка</td>	<td>6.44,4</td>	<td>I юн</td>	<td>Джавадова Л.Н.</td></tr>
+<tr><td>3</td>	<td>Ситников Никита</td>	<td>2001</td>	<td>ВятСШОР</td>	<td>6.46,3</td>	<td>I юн</td>	<td>Попцов А.С.</td></tr>
+<tr><td>4</td>	<td>Ситников Иван</td>	<td>2001</td>	<td>ВятСШОР</td>	<td>6.46,7</td>	<td>I юн</td>	<td>Попцов А.С.</td></tr>
+<tr><td>5</td>	<td>Баранов Егор</td>	<td>2002</td>	<td>ВятСШОР/Кирс</td>	<td>7.10,3</td>	<td>II юн</td>	<td>Балыбердин О.А.</td></tr>
+<tr><td>6</td>	<td>Сведенцов Сергей</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>7.16,6</td>	<td>II юн</td>	<td>Попцова Н.Б.</td></tr>
+<tr><td>7</td>	<td>Вершинин Роман</td>	<td>2001</td>	<td>ВятСШОР</td>	<td>7.17,6</td>	<td>II юн</td>	<td>Трушков А.Н./Трушкова М.В.</td></tr>
+<tr><td>8</td>	<td>Бурков Яков</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>7.19,9</td>	<td>II юн</td>	<td>Яровиков М.Н./Полушкина М.В.</td></tr>
+<tr><td>9</td>	<td>Вяткин Илья</td>	<td>2001</td>	<td>ВятСШОР</td>	<td>7.44,4</td>	<td>III юн</td>	<td>Марков Я.В.</td></tr>
+<tr><td>10</td>	<td>Корчемкин Демид</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>7.51,7</td>	<td>III юн</td>	<td>Яровиков М.Н.</td></tr>
+<tr><td>11</td>	<td>Кофанов Данил</td>	<td>2001</td>	<td>Кумены</td>	<td>7.59,3</td>	<td>III юн</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
+<tr><td>12</td>	<td>Менчиков Илья</td>	<td>2001</td>	<td>ВятСШОР</td>	<td>8.03,5</td>	<td>III юн</td>	<td>Попцов А.С.</td></tr>
+<tr><td>13</td>	<td>Булдаков Сергей</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>8.10,8</td>	<td>III юн</td>	<td>Попцов А.С.</td></tr>
+<tr><td>14</td>	<td>Летов Серафим</td>	<td>2001</td>	<td>Кумены</td>	<td>8.16,4</td>	<td>III юн</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
+<tr><td>15</td>	<td>Бехмансуров Руслан</td>	<td>2001</td>	<td>Кирс</td>	<td>10.06,5</td>	<td>&nbsp</td>	<td>Балыбердин О.А.</td></tr>
+
 </tbody></table></div></ul></li><li><a href="#">3 000 метров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd11"> <tr><th id="x71">Рейтинг</th><th id="x72">Фамилия Имя</th><th id="x73">Год</th><th id="x74">Организация</th><th id="x75">Результат</th><th id="x76">Разряд</th><th id="x77">Тренер</th></tr></thead><tbody id="tbd11"><th id="z71">Рейтинг</th><th id="z72">Фамилия Имя</th><th id="z73">Год</th><th id="z74">Организация</th><th id="z75">Результат</th><th id="z76">Разряд</th><th id="z77">Тренер</th></tr>						
 						
 <tr><td>1</td>	<td>Вершинин Константин</td>	<td>2001</td>	<td>Уржумский р-н</td>	<td>9.31,6</td>	<td>II</td>	<td>Блинов С.Д.</td></tr>
@@ -508,6 +535,11 @@ window.onscroll = function() {
 <tr><td>13</td>	<td>Вершинин Роман</td>	<td>2001</td>	<td>ВятСШОР</td>	<td>12.11,4</td>	<td>III юн</td>	<td>Трушков А.Н./Трушкова М.В.</td></tr>
 <tr><td>14</td>	<td>Бузмаков Сергей</td>	<td>2001</td>	<td>Афанасьево</td>	<td>13.00,2</td>	<td>III юн</td>	<td>Харин И.В.</td></tr>
 						
+</tbody></table></div></ul></li><li><a href="#">Полумарафон</a><ul><div><table cellpadding="0" class="t1"><thead id="thd29"> <tr><th id="x197">Рейтинг</th><th id="x198">Фамилия Имя</th><th id="x199">Год</th><th id="x200">Организация</th><th id="x201">Результат</th><th id="x202">Разряд</th><th id="x203">Тренер</th></tr></thead><tbody id="tbd29"><th id="z197">Рейтинг</th><th id="z198">Фамилия Имя</th><th id="z199">Год</th><th id="z200">Организация</th><th id="z201">Результат</th><th id="z202">Разряд</th><th id="z203">Тренер</th></tr>						
+						
+<tr><td>1</td>	<td>Ситников Никита</td>	<td>2001</td>	<td>ВятСШОР</td>	<td>1:46.55,0</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>2</td>	<td>Ситников Иван</td>	<td>2001</td>	<td>ВятСШОР</td>	<td>1:46.55,5</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+
 </tbody></table></div></ul></li><li><a href="#">Эстафета 4 по 100 метров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd12"> <tr><th id="x78">Рейтинг</th><th id="x79">Фамилия Имя</th><th id="x80">Год</th><th id="x81">Организация</th><th id="x82">Результат</th><th id="x83">Разряд</th><th id="x84">Тренер</th></tr></thead><tbody id="tbd12"><th id="z78">Рейтинг</th><th id="z79">Фамилия Имя</th><th id="z80">Год</th><th id="z81">Организация</th><th id="z82">Результат</th><th id="z83">Разряд</th><th id="z84">Тренер</th></tr>						
 						
 <tr><td>1</td>	<td>Бухарин Савелий</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>48,0</td>	<td>III</td>	<td>Малых И.С./Малых Н.Л.</td></tr>
@@ -515,18 +547,20 @@ window.onscroll = function() {
 <tr><td>3</td>	<td>Ишутинов Евгений</td>	<td>2001</td>	<td>Кирово-Чепецк (1 команда)</td>	<td>48,7</td>	<td>III</td>	<td>Хоменко М.М.</td></tr>
 <tr><td>3</td>	<td>Валеев Ярослав</td>	<td>2001</td>	<td>Кирово-Чепецк (1 команда)</td>	<td>48,7</td>	<td>III</td>	<td>Хоменко М.М.</td></tr>
 <tr><td>3</td>	<td>Толстобров Кирилл</td>	<td>2001</td>	<td>Кирово-Чепецк (1 команда)</td>	<td>48,7</td>	<td>III</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>6</td>	<td>Ярославцев Максим</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>50,2</td>	<td>I юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>6</td>	<td>Чикишев Степан</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>50,2</td>	<td>I юн</td>	<td>Рябова Э.Б.</td></tr>
-<tr><td>6</td>	<td>Кондратьев Глеб</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>50,2</td>	<td>I юн</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
-<tr><td>9</td>	<td>Гребенкин Тимур</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>50,7</td>	<td>I юн</td>	<td>Рябова Э.Б.</td></tr>
-<tr><td>10</td>	<td>Потапов Роман</td>	<td>2001</td>	<td>Кирово-Чепецк (2 команда)</td>	<td>51,4</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>10</td>	<td>Корнейцев Павел</td>	<td>2001</td>	<td>Кирово-Чепецк (2 команда)</td>	<td>51,4</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>10</td>	<td>Касимов Егор</td>	<td>2002</td>	<td>Кирово-Чепецк (2 команда)</td>	<td>51,4</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>10</td>	<td>Перевалов Савелий</td>	<td>2001</td>	<td>Кирово-Чепецк (2 команда)</td>	<td>51,4</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>14</td>	<td>Шиндряев Дмитрий</td>	<td>2001</td>	<td>Юность</td>	<td>51,6</td>	<td>I юн</td>	<td>Егорова Л.Г./Казакова З.А.</td></tr>
-<tr><td>14</td>	<td>Гамисония Владислав</td>	<td>2002</td>	<td>Юность</td>	<td>51,6</td>	<td>I юн</td>	<td>Ковязина Е.А.</td></tr>
-<tr><td>16</td>	<td>Токмолаев Алексей</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>52,1</td>	<td>I юн</td>	<td>Жерносек Е.В.</td></tr>
-<tr><td>17</td>	<td>Бартов Никита</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>52,8</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>6</td>	<td>Шиндряев Дмитрий</td>	<td>2001</td>	<td>Юность</td>	<td>48,9</td>	<td>III</td>	<td>Егорова Л.Г./Казакова З.А.</td></tr>
+<tr><td>6</td>	<td>Сайитов Азизбек</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>48,9</td>	<td>III</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>6</td>	<td>Ярославцев Максим</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>48,9</td>	<td>III</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>9</td>	<td>Сведенцов Константин</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>49,7</td>	<td>III</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>9</td>	<td>Потапов Роман</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>49,7</td>	<td>III</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>9</td>	<td>Корнейцев Павел</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>49,7</td>	<td>III</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>12</td>	<td>Чикишев Степан</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>50,2</td>	<td>I юн</td>	<td>Рябова Э.Б.</td></tr>
+<tr><td>12</td>	<td>Кондратьев Глеб</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>50,2</td>	<td>I юн</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
+<tr><td>14</td>	<td>Гребенкин Тимур</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>50,7</td>	<td>I юн</td>	<td>Рябова Э.Б.</td></tr>
+<tr><td>15</td>	<td>Касимов Егор</td>	<td>2002</td>	<td>Кирово-Чепецк (2 команда)</td>	<td>51,4</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>15</td>	<td>Перевалов Савелий</td>	<td>2001</td>	<td>Кирово-Чепецк (2 команда)</td>	<td>51,4</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>17</td>	<td>Гамисония Владислав</td>	<td>2002</td>	<td>Юность</td>	<td>51,6</td>	<td>I юн</td>	<td>Ковязина Е.А.</td></tr>
+<tr><td>18</td>	<td>Токмолаев Алексей</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>52,1</td>	<td>I юн</td>	<td>Жерносек Е.В.</td></tr>
+<tr><td>19</td>	<td>Бартов Никита</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>52,8</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
 						
 </tbody></table></div></ul></li><li><a href="#">Эстафета 4 по 400 метров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd13"> <tr><th id="x85">Рейтинг</th><th id="x86">Фамилия Имя</th><th id="x87">Год</th><th id="x88">Организация</th><th id="x89">Результат</th><th id="x90">Разряд</th><th id="x91">Тренер</th></tr></thead><tbody id="tbd13"><th id="z85">Рейтинг</th><th id="z86">Фамилия Имя</th><th id="z87">Год</th><th id="z88">Организация</th><th id="z89">Результат</th><th id="z90">Разряд</th><th id="z91">Тренер</th></tr>						
 						
@@ -544,7 +578,7 @@ window.onscroll = function() {
 <tr><td>1</td>	<td>Ишутинов Евгений</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>9,4</td>	<td>&nbsp</td>	<td>Хоменко М.М.</td></tr>
 <tr><td>2</td>	<td>Кислицын Даниил</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>10,2</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
 <tr><td>3</td>	<td>Суслов Александр</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>10,4</td>	<td>&nbsp</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
-<tr><td>4</td>	<td>Сайитов Азиз</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>10,7</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>4</td>	<td>Сайитов Азизбек</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>10,7</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
 <tr><td>5</td>	<td>Касимов Егор</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>10,8</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
 <tr><td>6</td>	<td>Коряковцев Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>10.9</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
 <tr><td>7</td>	<td>Кондратьев Глеб</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>11,3</td>	<td>&nbsp</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
@@ -553,7 +587,7 @@ window.onscroll = function() {
 
 <tr><td>1</td>	<td>Ишутинов Евгений</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>9,6</td>	<td>III</td>	<td>Хоменко М.М.</td></tr>
 <tr><td>2</td>	<td>Суслов Александр</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>10,8</td>	<td>II юн</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
-<tr><td>3</td>	<td>Сайитов Азиз</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>11,0</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>3</td>	<td>Сайитов Азизбек</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>11,0</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
 <tr><td>4</td>	<td>Коряковцев Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>11,2</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
 
 </tbody></table></div></ul></li></ul></li><li><a href="#">110 метров с барьерами</a><ul><div><table cellpadding="0" class="t1"><thead id="thd25"> <tr><th id="x169">Рейтинг</th><th id="x170">Фамилия Имя</th><th id="x171">Год</th><th id="x172">Организация</th><th id="x173">Результат</th><th id="x174">Разряд</th><th id="x175">Тренер</th></tr></thead><tbody id="tbd25"><th id="z169">Рейтинг</th><th id="z170">Фамилия Имя</th><th id="z171">Год</th><th id="z172">Организация</th><th id="z173">Результат</th><th id="z174">Разряд</th><th id="z175">Тренер</th></tr>						
@@ -563,14 +597,14 @@ window.onscroll = function() {
 </tbody></table></div></ul></li><li><a href="#">300 метров с барьерами</a><ul><li><a class="lm" href="#">76 сантиметров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd15"> <tr><th id="x99">Рейтинг</th><th id="x100">Фамилия Имя</th><th id="x101">Год</th><th id="x102">Организация</th><th id="x103">Результат</th><th id="x104">Разряд</th><th id="x105">Тренер</th></tr></thead><tbody id="tbd15"><th id="z99">Рейтинг</th><th id="z100">Фамилия Имя</th><th id="z101">Год</th><th id="z102">Организация</th><th id="z103">Результат</th><th id="z104">Разряд</th><th id="z105">Тренер</th></tr>						
 						
 <tr><td>1</td>	<td>Коряковцев Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>49,6</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>2</td>	<td>Сайитов Азиз</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>50,9</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>2</td>	<td>Сайитов Азизбек</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>50,9</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
 <tr><td>3</td>	<td>Суслов Александр</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>53,3</td>	<td>&nbsp</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
 						
 </tbody></table></div></ul></li><li><a class="lm" href="#">84 сантиметра</a><ul><div><table cellpadding="0" class="t1"><thead id="thd26"> <tr><th id="x176">Рейтинг</th><th id="x177">Фамилия Имя</th><th id="x178">Год</th><th id="x179">Организация</th><th id="x180">Результат</th><th id="x181">Разряд</th><th id="x182">Тренер</th></tr></thead><tbody id="tbd26"><th id="z176">Рейтинг</th><th id="z177">Фамилия Имя</th><th id="z178">Год</th><th id="z179">Организация</th><th id="z180">Результат</th><th id="z181">Разряд</th><th id="z182">Тренер</th></tr>						
 
 <tr><td>1</td>	<td>Ишутинов Евгений</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>45,4</td>	<td>&nbsp</td>	<td>Хоменко М.М.</td></tr>
 <tr><td>2</td>	<td>Потапов Роман</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>45,6</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>3</td>	<td>Сайитов Азиз</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>48,9</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>3</td>	<td>Сайитов Азизбек</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>48,9</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
 <tr><td>4</td>	<td>Касимов Егор</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>49,9</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
 <tr><td>5</td>	<td>Кислицын Даниил</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>50,0</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
 <tr><td>6</td>	<td>Коряковцев Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>53,0</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
@@ -599,7 +633,7 @@ window.onscroll = function() {
 <tr><td>17</td>	<td>Чикишев Степан</td>	<td>2001</td>	<td>ДЮСШ-2/10 школа</td>	<td>1,25</td>	<td>&nbsp</td>	<td>Рябова Э.Б.</td></tr>
 <tr><td>17</td>	<td>Ярославцев Максим</td>	<td>2002</td>	<td>ДЮСШ-2/20 школа</td>	<td>1,25</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
 <tr><td>17</td>	<td>Патрушев Илья</td>	<td>2001</td>	<td>ВятСШОР/51 школа</td>	<td>1,25</td>	<td>&nbsp</td>	<td>Наговицына Е.В.</td></tr>
-<tr><td>22</td>	<td>Сайитов Азиз</td>	<td>2002</td>	<td>ДЮСШ-2/20 школа</td>	<td>1,20</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>22</td>	<td>Сайитов Азизбек</td>	<td>2002</td>	<td>ДЮСШ-2/20 школа</td>	<td>1,20</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
 						
 </tbody></table></div></ul></li><li><a href="#">Прыжки в длину</a><ul><div><table cellpadding="0" class="t1"><thead id="thd17"> <tr><th id="x113">Рейтинг</th><th id="x114">Фамилия Имя</th><th id="x115">Год</th><th id="x116">Организация</th><th id="x117">Результат</th><th id="x118">Разряд</th><th id="x119">Тренер</th></tr></thead><tbody id="tbd17"><th id="z113">Рейтинг</th><th id="z114">Фамилия Имя</th><th id="z115">Год</th><th id="z116">Организация</th><th id="z117">Результат</th><th id="z118">Разряд</th><th id="z119">Тренер</th></tr>						
 						
@@ -608,35 +642,40 @@ window.onscroll = function() {
 <tr><td>3</td>	<td>Шиндряев Дмитрий</td>	<td>2001</td>	<td>Юность</td>	<td>5,46</td>	<td>I юн</td>	<td>Егорова Л.Г./Казакова З.А.</td></tr>
 <tr><td>4</td>	<td>Бутин Лев</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>5,37</td>	<td>I юн</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
 <tr><td>5</td>	<td>Крупин Валерий</td>	<td>2001</td>	<td>ВятСШОР/51 школа</td>	<td>5,34</td>	<td>I юн</td>	<td>Наговицына Е.В.</td></tr>
-<tr><td>6</td>	<td>Ишутинов Евгений</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>5,27</td>	<td>I юн</td>	<td>Хоменко М.М.</td></tr>
-<tr><td>7</td>	<td>Валеев Ярослав</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>5,25</td>	<td>I юн</td>	<td>Хоменко М.М.</td></tr>
+<tr><td>5</td>	<td>Валеев Ярослав</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>5,34</td>	<td>I юн</td>	<td>Хоменко М.М.</td></tr>
+<tr><td>7</td>	<td>Ишутинов Евгений</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>5,27</td>	<td>I юн</td>	<td>Хоменко М.М.</td></tr>
 <tr><td>8</td>	<td>Закирзянов Азат</td>	<td>2002</td>	<td>Вятские Поляны</td>	<td>5,23</td>	<td>I юн</td>	<td>Лебедев В.И.</td></tr>
-<tr><td>9</td>	<td>Коряковцев Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>5,09</td>	<td>I юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>10</td>	<td>Гребенкин Тимур</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>4,97</td>	<td>II юн</td>	<td>Рябова Э.Б.</td></tr>
-<tr><td>10</td>	<td>Касимов Егор</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>4,97</td>	<td>II юн</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>12</td>	<td>Кондратьев Глеб</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>4,94</td>	<td>II юн</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
-<tr><td>13</td>	<td>Чикишев Степан</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>4,92</td>	<td>II юн</td>	<td>Рябова Э.Б.</td></tr>
-<tr><td>14</td>	<td>Ярославцев Максим</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>4,91</td>	<td>II юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>15</td>	<td>Корчемкин Демид</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>4,88</td>	<td>II юн</td>	<td>Яровиков М.Н./Полушкина М.В.</td></tr>
-<tr><td>16</td>	<td>Зверев Никита</td>	<td>2002</td>	<td>Вятские Поляны</td>	<td>4,85</td>	<td>II юн</td>	<td>Лебедев В.И.</td></tr>
-<tr><td>17</td>	<td>Патрушев Илья</td>	<td>2001</td>	<td>ВятСШОР/51 школа</td>	<td>4,84</td>	<td>II юн</td>	<td>Наговицына Е.В.</td></tr>
-<tr><td>18</td>	<td>Вахрушев Олег</td>	<td>2002</td>	<td>Юность</td>	<td>4,79</td>	<td>II юн</td>	<td>Кощеев Н.М.</td></tr>
-<tr><td>19</td>	<td>Токмолаев Алексей</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>4,73</td>	<td>II юн</td>	<td>Жерносек Е.В.</td></tr>
-<tr><td>20</td>	<td>Суслов Александр</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>4,64</td>	<td>II юн</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
-<tr><td>21</td>	<td>Солоницын Данил</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>4,63</td>	<td>II юн</td>	<td>Крутиков К.В.</td></tr>
-<tr><td>22</td>	<td>Сайитов Азиз</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>4,59</td>	<td>II юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>23</td>	<td>Корнейцев Павел</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>4,58</td>	<td>II юн</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>24</td>	<td>Финевич Игорь</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>4,56</td>	<td>II юн</td>	<td>Холстинина Н.Р.</td></tr>
-<tr><td>25</td>	<td>Ложкин Роман</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>4,38</td>	<td>III юн</td>	<td>Рябова Э.Б.</td></tr>
-<tr><td>26</td>	<td>Мохов Данила</td>	<td>2001</td>	<td>ВятСШОР/51 школа</td>	<td>4,35</td>	<td>III юн</td>	<td>Наговицына Е.В.</td></tr>
-<tr><td>27</td>	<td>Мамеко Никита</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>4,34</td>	<td>III юн</td>	<td>Крутиков К.В.</td></tr>
-<tr><td>28</td>	<td>Анисимов Дмитрий</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>4,18</td>	<td>III юн</td>	<td>Попцов А.С.</td></tr>
-<tr><td>29</td>	<td>Назаров Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>4,12</td>	<td>III юн</td>	<td>Рябова Э.Б.</td></tr>
-<tr><td>30</td>	<td>Девятериков Владислав</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>4,00</td>	<td>III юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>31</td>	<td>Медуницын Савва</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>3,98</td>	<td>&nbsp</td>	<td>Рябова Э.Б.</td></tr>
-<tr><td>32</td>	<td>Усатов Михаил</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>3,96</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>33</td>	<td>Коврижных Артур</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>3,90</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>34</td>	<td>Кокорин Илья</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>3,87</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>9</td>	<td>Коряковцев Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>5,21</td>	<td>I юн</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>10</td>	<td>Кондратьев Глеб</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>5,05</td>	<td>I юн</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
+<tr><td>10</td>	<td>Сведенцов Константин</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>5,05</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>12</td>	<td>Ярославцев Максим</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>5,02</td>	<td>I юн</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>13</td>	<td>Гребенкин Тимур</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>4,97</td>	<td>II юн</td>	<td>Рябова Э.Б.</td></tr>
+<tr><td>13</td>	<td>Касимов Егор</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>4,97</td>	<td>II юн</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>15</td>	<td>Сайитов Азизбек</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>4,95</td>	<td>II юн</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>16</td>	<td>Чикишев Степан</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>4,92</td>	<td>II юн</td>	<td>Рябова Э.Б.</td></tr>
+<tr><td>17</td>	<td>Корчемкин Демид</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>4,88</td>	<td>II юн</td>	<td>Яровиков М.Н./Полушкина М.В.</td></tr>
+<tr><td>18</td>	<td>Зверев Никита</td>	<td>2002</td>	<td>Вятские Поляны</td>	<td>4,85</td>	<td>II юн</td>	<td>Лебедев В.И.</td></tr>
+<tr><td>19</td>	<td>Патрушев Илья</td>	<td>2001</td>	<td>ВятСШОР/51 школа</td>	<td>4,84</td>	<td>II юн</td>	<td>Наговицына Е.В.</td></tr>
+<tr><td>20</td>	<td>Вахрушев Олег</td>	<td>2002</td>	<td>Юность</td>	<td>4,79</td>	<td>II юн</td>	<td>Кощеев Н.М.</td></tr>
+<tr><td>21</td>	<td>Потапов Роман</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>4,76</td>	<td>II юн</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>21</td>	<td>Бартов Никита</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>4,76</td>	<td>II юн</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>23</td>	<td>Кислицын Даниил</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>4,75</td>	<td>II юн</td>	<td>Северюхина М.А.</td></tr>
+<tr><td>24</td>	<td>Токмолаев Алексей</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>4,73</td>	<td>II юн</td>	<td>Жерносек Е.В.</td></tr>
+<tr><td>25</td>	<td>Суслов Александр</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>4,64</td>	<td>II юн</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
+<tr><td>26</td>	<td>Солоницын Данил</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>4,63</td>	<td>II юн</td>	<td>Крутиков К.В.</td></tr>
+<tr><td>27</td>	<td>Корнейцев Павел</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>4,58</td>	<td>II юн</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>28</td>	<td>Финевич Игорь</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>4,56</td>	<td>II юн</td>	<td>Холстинина Н.Р.</td></tr>
+<tr><td>29</td>	<td>Ложкин Роман</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>4,38</td>	<td>III юн</td>	<td>Рябова Э.Б.</td></tr>
+<tr><td>30</td>	<td>Мохов Данила</td>	<td>2001</td>	<td>ВятСШОР/51 школа</td>	<td>4,35</td>	<td>III юн</td>	<td>Наговицына Е.В.</td></tr>
+<tr><td>31</td>	<td>Мамеко Никита</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>4,34</td>	<td>III юн</td>	<td>Крутиков К.В.</td></tr>
+<tr><td>32</td>	<td>Анисимов Дмитрий</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>4,18</td>	<td>III юн</td>	<td>Попцов А.С.</td></tr>
+<tr><td>33</td>	<td>Назаров Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>4,12</td>	<td>III юн</td>	<td>Рябова Э.Б.</td></tr>
+<tr><td>34</td>	<td>Девятериков Владислав</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>4,00</td>	<td>III юн</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>35</td>	<td>Медуницын Савва</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>3,98</td>	<td>&nbsp</td>	<td>Рябова Э.Б.</td></tr>
+<tr><td>36</td>	<td>Усатов Михаил</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>3,96</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>37</td>	<td>Коврижных Артур</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>3,90</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>38</td>	<td>Кокорин Илья</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>3,87</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>39</td>	<td>Чернышев Дмитрий</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>3,85</td>	<td>&nbsp</td>	<td>Рябова Э.Б.</td></tr>
 						
 </tbody></table></div></ul></li><li><a href="#">Метание копья</a><ul><div><table cellpadding="0" class="t1"><thead id="thd18"> <tr><th id="x120">Рейтинг</th><th id="x121">Фамилия Имя</th><th id="x122">Год</th><th id="x123">Организация</th><th id="x124">Результат</th><th id="x125">Разряд</th><th id="x126">Тренер</th></tr></thead><tbody id="tbd18"><th id="z120">Рейтинг</th><th id="z121">Фамилия Имя</th><th id="z122">Год</th><th id="z123">Организация</th><th id="z124">Результат</th><th id="z125">Разряд</th><th id="z126">Тренер</th></tr>						
 						
@@ -648,30 +687,34 @@ window.onscroll = function() {
 						
 </tbody></table></div></ul></li><li><a href="#">Метание снаряда</a><ul><div><table cellpadding="0" class="t1"><thead id="thd19"> <tr><th id="x127">Рейтинг</th><th id="x128">Фамилия Имя</th><th id="x129">Год</th><th id="x130">Организация</th><th id="x131">Результат</th><th id="x132">Разряд</th><th id="x133">Тренер</th></tr></thead><tbody id="tbd19"><th id="z127">Рейтинг</th><th id="z128">Фамилия Имя</th><th id="z129">Год</th><th id="z130">Организация</th><th id="z131">Результат</th><th id="z132">Разряд</th><th id="z133">Тренер</th></tr>						
 						
-<tr><td>1</td>	<td>Анисимов Дмитрий</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>63,78</td>	<td>III</td>	<td>Попцов А.С.</td></tr>
-<tr><td>2</td>	<td>Сведенцов Константин</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>63,70</td>	<td>III</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>3</td>	<td>Патрушев Илья</td>	<td>2001</td>	<td>ВятСШОР/51 школа</td>	<td>58,76</td>	<td>I юн</td>	<td>Наговицына Е.В.</td></tr>
-<tr><td>4</td>	<td>Лунеев Павел</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>57,76</td>	<td>I юн</td>	<td>Ситникова Т.И.</td></tr>
-<tr><td>5</td>	<td>Валеев Ярослав</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>51,40</td>	<td>I юн</td>	<td>Хоменко М.М.</td></tr>
-<tr><td>6</td>	<td>Крупин Валерий</td>	<td>2001</td>	<td>ВятСШОР/51 школа</td>	<td>50,90</td>	<td>I юн</td>	<td>Наговицына Е.В.</td></tr>
-<tr><td>7</td>	<td>Касимов Егор</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>50,76</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>8</td>	<td>Коряковцев Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>49,50</td>	<td>II юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>8</td>	<td>Корнейцев Павел</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>49,50</td>	<td>II юн</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>10</td>	<td>Гамисония Владислав</td>	<td>2002</td>	<td>Юность</td>	<td>47,95</td>	<td>II юн</td>	<td>Егорова Л.Г./Ковязина Е.А.</td></tr>
-<tr><td>11</td>	<td>Кондратьев Глеб</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>47,60</td>	<td>&nbsp</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
-<tr><td>12</td>	<td>Ишутинов Евгений</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>45,55</td>	<td>II юн</td>	<td>Хоменко М.М.</td></tr>
-<tr><td>13</td>	<td>Сайитов Азиз</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>43,67</td>	<td>III юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>14</td>	<td>Вахрушев Олег</td>	<td>2002</td>	<td>Юность</td>	<td>43,17</td>	<td>III юн</td>	<td>Кощеев Н.М.</td></tr>
-<tr><td>15</td>	<td>Чикишев Степан</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>43,16</td>	<td>III юн</td>	<td>Рябова Э.Б.</td></tr>
-<tr><td>16</td>	<td>Ярославцев Максим</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>43,08</td>	<td>III юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>17</td>	<td>Мохов Данила</td>	<td>2001</td>	<td>ВятСШОР/51 школа</td>	<td>40,33</td>	<td>III юн</td>	<td>Наговицына Е.В.</td></tr>
-<tr><td>18</td>	<td>Финевич Игорь</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>39,81</td>	<td>&nbsp</td>	<td>Холстинина Н.Р.</td></tr>
-<tr><td>19</td>	<td>Корчемкин Демид</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>39,78</td>	<td>&nbsp</td>	<td>Яровиков М.Н./Полушкина М.В.</td></tr>
-<tr><td>20</td>	<td>Девятериков Владислав</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>37,75</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>21</td>	<td>Шиндряев Дмитрий</td>	<td>2001</td>	<td>Юность</td>	<td>36,89</td>	<td>&nbsp</td>	<td>Егорова Л.Г./Казакова З.А.</td></tr>
-<tr><td>22</td>	<td>Бутин Лев</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>36,85</td>	<td>&nbsp</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
-<tr><td>23</td>	<td>Мартынов Артем</td>	<td>2002</td>	<td>Юность</td>	<td>23,74</td>	<td>&nbsp</td>	<td>Казакова З.А./Платунова М.Н.</td></tr>
-<tr><td>24</td>	<td>Ложкин Роман</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>21,85</td>	<td>&nbsp</td>	<td>Рябова Э.Б.</td></tr>
+<tr><td>1</td>	<td>Сведенцов Константин</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>65,66</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>2</td>	<td>Анисимов Дмитрий</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>63,78</td>	<td>&nbsp</td>	<td>Попцов А.С.</td></tr>
+<tr><td>3</td>	<td>Патрушев Илья</td>	<td>2001</td>	<td>ВятСШОР/51 школа</td>	<td>58,76</td>	<td>&nbsp</td>	<td>Наговицына Е.В.</td></tr>
+<tr><td>4</td>	<td>Лунеев Павел</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>57,76</td>	<td>&nbsp</td>	<td>Ситникова Т.И.</td></tr>
+<tr><td>5</td>	<td>Валеев Ярослав</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>52,32</td>	<td>&nbsp</td>	<td>Хоменко М.М.</td></tr>
+<tr><td>6</td>	<td>Крупин Валерий</td>	<td>2001</td>	<td>ВятСШОР/51 школа</td>	<td>50,90</td>	<td>&nbsp</td>	<td>Наговицына Е.В.</td></tr>
+<tr><td>7</td>	<td>Касимов Егор</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>50,76</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>8</td>	<td>Потапов Роман</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>50,01</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>9</td>	<td>Коряковцев Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>49,50</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>9</td>	<td>Корнейцев Павел</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>49,50</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>11</td>	<td>Гамисония Владислав</td>	<td>2002</td>	<td>Юность</td>	<td>47,95</td>	<td>&nbsp</td>	<td>Егорова Л.Г./Ковязина Е.А.</td></tr>
+<tr><td>12</td>	<td>Кондратьев Глеб</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>47,60</td>	<td>&nbsp</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
+<tr><td>13</td>	<td>Бартов Никита</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>47,72</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>14</td>	<td>Ишутинов Евгений</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>45,55</td>	<td>&nbsp</td>	<td>Хоменко М.М.</td></tr>
+<tr><td>15</td>	<td>Сайитов Азизбек</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>43,67</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>16</td>	<td>Вахрушев Олег</td>	<td>2002</td>	<td>Юность</td>	<td>43,17</td>	<td>&nbsp</td>	<td>Кощеев Н.М.</td></tr>
+<tr><td>17</td>	<td>Чикишев Степан</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>43,16</td>	<td>&nbsp</td>	<td>Рябова Э.Б.</td></tr>
+<tr><td>18</td>	<td>Ярославцев Максим</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>43,08</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>19</td>	<td>Кислицын Даниил</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>40,75</td>	<td>&nbsp</td>	<td>Северюхина М.А.</td></tr>
+<tr><td>20</td>	<td>Мохов Данила</td>	<td>2001</td>	<td>ВятСШОР/51 школа</td>	<td>40,33</td>	<td>&nbsp</td>	<td>Наговицына Е.В.</td></tr>
+<tr><td>21</td>	<td>Финевич Игорь</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>39,81</td>	<td>&nbsp</td>	<td>Холстинина Н.Р.</td></tr>
+<tr><td>22</td>	<td>Корчемкин Демид</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>39,78</td>	<td>&nbsp</td>	<td>Яровиков М.Н./Полушкина М.В.</td></tr>
+<tr><td>23</td>	<td>Девятериков Владислав</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>39,65</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>24</td>	<td>Шиндряев Дмитрий</td>	<td>2001</td>	<td>Юность</td>	<td>36,89</td>	<td>&nbsp</td>	<td>Егорова Л.Г./Казакова З.А.</td></tr>
+<tr><td>25</td>	<td>Бутин Лев</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>36,85</td>	<td>&nbsp</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
+<tr><td>26</td>	<td>Чернышев Дмитрий</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>26,23</td>	<td>&nbsp</td>	<td>Рябова Э.Б.</td></tr>
+<tr><td>27</td>	<td>Мартынов Артем</td>	<td>2002</td>	<td>Юность</td>	<td>23,74</td>	<td>&nbsp</td>	<td>Казакова З.А./Платунова М.Н.</td></tr>
+<tr><td>28</td>	<td>Ложкин Роман</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>21,85</td>	<td>&nbsp</td>	<td>Рябова Э.Б.</td></tr>
 						
 </tbody></table></div></ul></li><li><a href="#">Метание диска</a><ul><div><table cellpadding="0" class="t1"><thead id="thd27"> <tr><th id="x183">Рейтинг</th><th id="x184">Фамилия Имя</th><th id="x185">Год</th><th id="x186">Организация</th><th id="x187">Результат</th><th id="x188">Разряд</th><th id="x189">Тренер</th></tr></thead><tbody id="tbd27"><th id="z183">Рейтинг</th><th id="z184">Фамилия Имя</th><th id="z185">Год</th><th id="z186">Организация</th><th id="z187">Результат</th><th id="z188">Разряд</th><th id="z189">Тренер</th></tr>						
 
@@ -679,7 +722,7 @@ window.onscroll = function() {
 
 </tbody></table></div></ul></li><li><a href="#">Толкание ядра</a><ul><div><table cellpadding="0" class="t1"><thead id="thd20"> <tr><th id="x134">Рейтинг</th><th id="x135">Фамилия Имя</th><th id="x136">Год</th><th id="x137">Организация</th><th id="x138">Результат</th><th id="x139">Разряд</th><th id="x140">Тренер</th></tr></thead><tbody id="tbd20"><th id="z134">Рейтинг</th><th id="z135">Фамилия Имя</th><th id="z136">Год</th><th id="z137">Организация</th><th id="z138">Результат</th><th id="z139">Разряд</th><th id="z140">Тренер</th></tr>						
 						
-<tr><td>1</td>	<td>Солоницын Данил</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>11,66</td>	<td>III</td>	<td>Крутиков К.В.</td></tr>
+<tr><td>1</td>	<td>Солоницын Данил</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>12,04</td>	<td>III</td>	<td>Крутиков К.В.</td></tr>
 <tr><td>2</td>	<td>Толстобров Кирилл</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>10,59</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
 <tr><td>3</td>	<td>Анисимов Дмитрий</td>	<td>2002</td>	<td>ВятСШОР</td>	<td>10,52</td>	<td>I юн</td>	<td>Подковырин В.Д./Попцов А.С./Крутиков А.К.</td></tr>
 <tr><td>4</td>	<td>Черемискин Александр</td>	<td>2001</td>	<td>Кумены</td>	<td>8,13</td>	<td>II юн</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
@@ -709,16 +752,23 @@ window.onscroll = function() {
 						
 </tbody></table></div></ul></li><li><a href="#">4-борье</a><ul><div><table cellpadding="0" class="t1"><thead id="thd23"> <tr><th id="x155">Рейтинг</th><th id="x156">Фамилия Имя</th><th id="x157">Год</th><th id="x158">Организация</th><th id="x159">Результат</th><th id="x160">Разряд</th><th id="x161">Тренер</th></tr></thead><tbody id="tbd23"><th id="z155">Рейтинг</th><th id="z156">Фамилия Имя</th><th id="z157">Год</th><th id="z158">Организация</th><th id="z159">Результат</th><th id="z160">Разряд</th><th id="z161">Тренер</th></tr>						
 						
-<tr><td>1</td>	<td>Лунеев Павел</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>322</td>	<td>&nbsp</td>	<td>Ситникова Т.И.</td></tr>
-<tr><td>2</td>	<td>Валеев Ярослав</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>301</td>	<td>&nbsp</td>	<td>Хоменко М.М.</td></tr>
+<tr><td>1</td>	<td>Лунеев Павел</td>	<td>2001</td>	<td>ДЮСШ-2</td>	<td>332</td>	<td>&nbsp</td>	<td>Ситникова Т.И.</td></tr>
+<tr><td>2</td>	<td>Валеев Ярослав</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>323</td>	<td>&nbsp</td>	<td>Хоменко М.М.</td></tr>
 <tr><td>3</td>	<td>Гамисония Владислав</td>	<td>2002</td>	<td>Юность</td>	<td>293</td>	<td>&nbsp</td>	<td>Ковязина Е.А.</td></tr>
-<tr><td>4</td>	<td>Бутин Лев</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>265</td>	<td>&nbsp</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
-<tr><td>5</td>	<td>Кондратьев Глеб</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>262</td>	<td>&nbsp</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
-<tr><td>6</td>	<td>Шиндряев Дмитрий</td>	<td>2001</td>	<td>Юность</td>	<td>251</td>	<td>&nbsp</td>	<td>Егорова Л.Г./Казакова З.А.</td></tr>
-<tr><td>7</td>	<td>Коряковцев Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>225</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>7</td>	<td>Ярославцев Максим</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>225</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>9</td>	<td>Сайитов Азиз</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>216</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>10</td>	<td>Девятериков Владислав</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>195</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>4</td>	<td>Кондратьев Глеб</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>282</td>	<td>&nbsp</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
+<tr><td>5</td>	<td>Шиндряев Дмитрий</td>	<td>2001</td>	<td>Юность</td>	<td>281</td>	<td>&nbsp</td>	<td>Егорова Л.Г./Казакова З.А.</td></tr>
+<tr><td>6</td>	<td>Сведенцов Константин</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>275</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>7</td>	<td>Потапов Роман</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>273</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>8</td>	<td>Сайитов Азизбек</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>267</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>9</td>	<td>Бутин Лев</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>265</td>	<td>&nbsp</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
+<tr><td>10</td>	<td>Касимов Егор</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>250</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>11</td>	<td>Коряковцев Павел</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>249</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>12</td>	<td>Ярославцев Максим</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>236</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>13</td>	<td>Корнейцев Павел</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>234</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>14</td>	<td>Кислицын Даниил</td>	<td>2001</td>	<td>Кирово-Чепецк</td>	<td>233</td>	<td>&nbsp</td>	<td>Северюхина М.А.</td></tr>
+<tr><td>15</td>	<td>Бартов Никита</td>	<td>2002</td>	<td>Кирово-Чепецк</td>	<td>232</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>16</td>	<td>Девятериков Владислав</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>195</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>17</td>	<td>Чернышев Дмитрий</td>	<td>2002</td>	<td>ДЮСШ-2</td>	<td>142</td>	<td>&nbsp</td>	<td>Рябова Э.Б.</td></tr>
 
 </tbody></table></div></ul></li></ul></li></ul></li><br>
 

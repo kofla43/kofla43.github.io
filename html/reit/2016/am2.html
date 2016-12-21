@@ -30,15 +30,15 @@ document.getElementById('leftars').style.left=document.getElementById('ck1s').of
 document.getElementById('rightars').style.left=document.getElementById('ck1s').clientWidth+document.getElementById('ck1s').offsetLeft+'px';
 document.getElementById('leftars').style.top=document.getElementById('ck1s').style.paddingTop;
 document.getElementById('rightars').style.top=document.getElementById('ck1s').style.paddingTop;
- for (var i = 1; i <= 147; i++) {document.getElementById('x'+i).width=document.getElementById('z'+i).clientWidth};
- for (var j = 1; j <= 21; j++) {document.getElementById('thd'+j).style.top=document.getElementById('logos').clientHeight+'px';
+ for (var i = 1; i <= 154; i++) {document.getElementById('x'+i).width=document.getElementById('z'+i).clientWidth};
+ for (var j = 1; j <= 22; j++) {document.getElementById('thd'+j).style.top=document.getElementById('logos').clientHeight+'px';
   if ((window.pageYOffset || document.documentElement.scrollTop)>(getOffset(document.getElementById('tbd'+j)).top-document.getElementById('logos').clientHeight))
 	{document.getElementById('thd'+j).style.visibility="visible";}
 	else {document.getElementById('thd'+j).style.visibility="hidden";}}}
-function Wait(){for (var j = 1; j <= 21; j++) {document.getElementById('thd'+j).style.visibility="hidden"};
+function Wait(){for (var j = 1; j <= 22; j++) {document.getElementById('thd'+j).style.visibility="hidden"};
 setInterval('Sizing()', 1)};
 window.onscroll = function() {
- for (var k = 1; k <= 21; k++) {
+ for (var k = 1; k <= 22; k++) {
  if ((window.pageYOffset || document.documentElement.scrollTop)>(getOffset(document.getElementById('tbd'+k)).top-document.getElementById('logos').clientHeight))
 	{document.getElementById('thd'+k).style.visibility="visible";}
 	else {document.getElementById('thd'+k).style.visibility="hidden";}}}
@@ -340,7 +340,7 @@ window.onscroll = function() {
 <tr><td>1</td>	<td>Колупаев Алексей</td>	<td>2003</td>	<td>ВятСШОР/Кумены</td>	<td>1.02,4</td>	<td>I юн</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
 <tr><td>2</td>	<td>Дрягин Максим</td>	<td>2003</td>	<td>ДЮСШ-2</td>	<td>1.03,8</td>	<td>I юн</td>	<td>Жерносек Е.В.</td></tr>
 <tr><td>2</td>	<td>Матанцев Данил</td>	<td>2003</td>	<td>ВятСШОР</td>	<td>1.03,8</td>	<td>I юн</td>	<td>Попцова Н.Б.</td></tr>
-<tr><td>4</td>	<td>Суворов Иван</td>	<td>2003</td>	<td>ВятСШОР</td>	<td>1.05,1</td>	<td>II юн</td>	<td>Трушков А.Н./Трушкова М.В.</td></tr>
+<tr><td>4</td>	<td>Суворов Иван</td>	<td>2003</td>	<td>ВятСШОР</td>	<td>1.04,5</td>	<td>I юн</td>	<td>Трушков А.Н./Трушкова М.В.</td></tr>
 <tr><td>5</td>	<td>Гырдымов Семен</td>	<td>2003</td>	<td>Кирово-Чепецк</td>	<td>1.05,8</td>	<td>I юн</td>	<td>Малых И.С./Малых Н.Л.</td></tr>
 <tr><td>6</td>	<td>Колесников Илья</td>	<td>2003</td>	<td>Вятские Поляны</td>	<td>1.06,3</td>	<td>II юн</td>	<td>Лебедев В.И.</td></tr>
 <tr><td>7</td>	<td>Канц Ярослав</td>	<td>2003</td>	<td>ВятСШОР</td>	<td>1.06,8</td>	<td>II юн</td>	<td>Трушков А.Н./Трушкова М.В.</td></tr>
@@ -384,23 +384,23 @@ window.onscroll = function() {
 <tr><td>23</td>	<td>Никулин Матвей</td>	<td>2005</td>	<td>ДЮСШ-2</td>	<td>1.58,8</td>	<td>III юн</td>	<td>Михайлова Л.А.</td></tr>
 <tr><td>24</td>	<td>Кошкин Константин</td>	<td>2003</td>	<td>Яранск</td>	<td>1.58,9</td>	<td>III юн</td>	<td>Смирнова В.А.</td></tr>
 <tr><td>25</td>	<td>Истомин Кирилл</td>	<td>2005</td>	<td>ВятСШОР/Рудничный</td>	<td>1.59,8</td>	<td>III юн</td>	<td>Аверина Г.А.</td></tr>
-<tr><td>26</td>	<td>Патрушев Владислав</td>	<td>2004</td>	<td>Лебяжье</td>	<td>2.01,3</td>	<td>III юн</td>	<td>Чувашов В.А.</td></tr>
-<tr><td>27</td>	<td>Шулаев Иван</td>	<td>2004</td>	<td>ДЮСШ-2</td>	<td>2.01,4</td>	<td>III юн</td>	<td>Ситникова Т.И.</td></tr>
-<tr><td>27</td>	<td>Морданов Денис</td>	<td>2005</td>	<td>Кирово-Чепецк</td>	<td>2.01,4</td>	<td>III юн</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>29</td>	<td>Юркин Александр</td>	<td>2003</td>	<td>Кирово-Чепецк</td>	<td>2.01,9</td>	<td>III юн</td>	<td>Малых И.С./Малых Н.Л.</td></tr>
-<tr><td>30</td>	<td>Вожегов Евгений</td>	<td>2003</td>	<td>ДЮСШ-2</td>	<td>2.02,5</td>	<td>III юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>30</td>	<td>Осипов Роман</td>	<td>2004</td>	<td>Лебяжье</td>	<td>2.02,5</td>	<td>III юн</td>	<td>Чувашов В.А.</td></tr>
-<tr><td>32</td>	<td>Коробицин Иван</td>	<td>2004</td>	<td>ВятСШОР/Кумены</td>	<td>2.03,4</td>	<td>III юн</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
-<tr><td>32</td>	<td>Созин Павел</td>	<td>2005</td>	<td>Кирово-Чепецк</td>	<td>2.03,4</td>	<td>III юн</td>	<td>Малых И.С./Малых Н.Л.</td></tr>
-<tr><td>34</td>	<td>Мухачев Александр</td>	<td>2004</td>	<td>Юность</td>	<td>2.03,6</td>	<td>III юн</td>	<td>Казакова З.А.</td></tr>
-<tr><td>35</td>	<td>Васенин Степан</td>	<td>2004</td>	<td>ДЮСШ-2</td>	<td>2.03,8</td>	<td>III юн</td>	<td>Полушкина М.В.</td></tr>
-<tr><td>36</td>	<td>Коробейников Николай</td>	<td>2005</td>	<td>Кумены</td>	<td>2.04,0</td>	<td>III юн</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
-<tr><td>37</td>	<td>Летов Иван</td>	<td>2004</td>	<td>ВятСШОР/Кумены</td>	<td>2.04,5</td>	<td>III юн</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
-<tr><td>38</td>	<td>Каратаев Матвей</td>	<td>2006</td>	<td>ВятСШОР</td>	<td>2.06,3</td>	<td>&nbsp</td>	<td>Холстинина Н.Р.</td></tr>
-<tr><td>39</td>	<td>Козулин Федор</td>	<td>2005</td>	<td>ДЮСШ-2</td>	<td>2.06,4</td>	<td>&nbsp</td>	<td>Ситникова Т.И.</td></tr>
-<tr><td>40</td>	<td>Епифанов Данил</td>	<td>2003</td>	<td>Яранск</td>	<td>2.06,5</td>	<td>&nbsp</td>	<td>Емашова Л.Г.</td></tr>
-<tr><td>41</td>	<td>Домнин Евгений</td>	<td>2005</td>	<td>ДЮСШ-2</td>	<td>2.06,9</td>	<td>&nbsp</td>	<td>Ямшанова Н.А.</td></tr>
-<tr><td>42</td>	<td>Кривокрытов Дмитрий</td>	<td>2005</td>	<td>Юность</td>	<td>2.07,3</td>	<td>&nbsp</td>	<td>Филимонова С.А.</td></tr>
+<tr><td>26</td>	<td>Кривокрытов Дмитрий</td>	<td>2005</td>	<td>Юность</td>	<td>2.00,6</td>	<td>III юн</td>	<td>Филимонова С.А.</td></tr>
+<tr><td>27</td>	<td>Патрушев Владислав</td>	<td>2004</td>	<td>Лебяжье</td>	<td>2.01,3</td>	<td>III юн</td>	<td>Чувашов В.А.</td></tr>
+<tr><td>28</td>	<td>Шулаев Иван</td>	<td>2004</td>	<td>ДЮСШ-2</td>	<td>2.01,4</td>	<td>III юн</td>	<td>Ситникова Т.И.</td></tr>
+<tr><td>28</td>	<td>Морданов Денис</td>	<td>2005</td>	<td>Кирово-Чепецк</td>	<td>2.01,4</td>	<td>III юн</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>30</td>	<td>Юркин Александр</td>	<td>2003</td>	<td>Кирово-Чепецк</td>	<td>2.01,9</td>	<td>III юн</td>	<td>Малых И.С./Малых Н.Л.</td></tr>
+<tr><td>31</td>	<td>Вожегов Евгений</td>	<td>2003</td>	<td>ДЮСШ-2</td>	<td>2.02,5</td>	<td>III юн</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>31</td>	<td>Осипов Роман</td>	<td>2004</td>	<td>Лебяжье</td>	<td>2.02,5</td>	<td>III юн</td>	<td>Чувашов В.А.</td></tr>
+<tr><td>33</td>	<td>Коробицин Иван</td>	<td>2004</td>	<td>ВятСШОР/Кумены</td>	<td>2.03,4</td>	<td>III юн</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
+<tr><td>33</td>	<td>Созин Павел</td>	<td>2005</td>	<td>Кирово-Чепецк</td>	<td>2.03,4</td>	<td>III юн</td>	<td>Малых И.С./Малых Н.Л.</td></tr>
+<tr><td>35</td>	<td>Мухачев Александр</td>	<td>2004</td>	<td>Юность</td>	<td>2.03,6</td>	<td>III юн</td>	<td>Казакова З.А.</td></tr>
+<tr><td>36</td>	<td>Васенин Степан</td>	<td>2004</td>	<td>ДЮСШ-2</td>	<td>2.03,8</td>	<td>III юн</td>	<td>Полушкина М.В.</td></tr>
+<tr><td>37</td>	<td>Коробейников Николай</td>	<td>2005</td>	<td>Кумены</td>	<td>2.04,0</td>	<td>III юн</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
+<tr><td>38</td>	<td>Летов Иван</td>	<td>2004</td>	<td>ВятСШОР/Кумены</td>	<td>2.04,5</td>	<td>III юн</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
+<tr><td>39</td>	<td>Каратаев Матвей</td>	<td>2006</td>	<td>ВятСШОР</td>	<td>2.06,3</td>	<td>&nbsp</td>	<td>Холстинина Н.Р.</td></tr>
+<tr><td>40</td>	<td>Козулин Федор</td>	<td>2005</td>	<td>ДЮСШ-2</td>	<td>2.06,4</td>	<td>&nbsp</td>	<td>Ситникова Т.И.</td></tr>
+<tr><td>41</td>	<td>Епифанов Данил</td>	<td>2003</td>	<td>Яранск</td>	<td>2.06,5</td>	<td>&nbsp</td>	<td>Емашова Л.Г.</td></tr>
+<tr><td>42</td>	<td>Домнин Евгений</td>	<td>2005</td>	<td>ДЮСШ-2</td>	<td>2.06,9</td>	<td>&nbsp</td>	<td>Ямшанова Н.А.</td></tr>
 <tr><td>43</td>	<td>Баранов Владислав</td>	<td>2005</td>	<td>Юность</td>	<td>2.07,4</td>	<td>&nbsp</td>	<td>Филимонова С.А.</td></tr>
 <tr><td>44</td>	<td>Коротких Лев</td>	<td>2004</td>	<td>ДЮСШ-2</td>	<td>2.07,8</td>	<td>&nbsp</td>	<td>Рябова Э.Б.</td></tr>
 <tr><td>45</td>	<td>Лешко Богдан</td>	<td>2004</td>	<td>ДЮСШ-2</td>	<td>2.08,8</td>	<td>&nbsp</td>	<td>Рябова Э.Б.</td></tr>
@@ -473,7 +473,7 @@ window.onscroll = function() {
 </tbody></table></div></ul></li><li><a href="#">800 метров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd7"> <tr><th id="x43">Рейтинг</th><th id="x44">Фамилия Имя</th><th id="x45">Год</th><th id="x46">Организация</th><th id="x47">Результат</th><th id="x48">Разряд</th><th id="x49">Тренер</th></tr></thead><tbody id="tbd7"><th id="z43">Рейтинг</th><th id="z44">Фамилия Имя</th><th id="z45">Год</th><th id="z46">Организация</th><th id="z47">Результат</th><th id="z48">Разряд</th><th id="z49">Тренер</th></tr>						
 						
 <tr><td>1</td>	<td>Гырдымов Семен</td>	<td>2003</td>	<td>Кирово-Чепецк</td>	<td>2.28,2</td>	<td>I юн</td>	<td>Малых И.С./Малых Н.Л.</td></tr>
-<tr><td>2</td>	<td>Мокрушин Сергей</td>	<td>2004</td>	<td>Юность </td>	<td>2.29,9</td>	<td>I юн</td>	<td>Филимонова С.А.</td></tr>
+<tr><td>2</td>	<td>Мокрушин Сергей</td>	<td>2004</td>	<td>Юность </td>	<td>2.29,6</td>	<td>I юн</td>	<td>Филимонова С.А.</td></tr>
 <tr><td>3</td>	<td>Матанцев Данил</td>	<td>2003</td>	<td>ВятСШОР</td>	<td>2.31,6</td>	<td>II юн</td>	<td>Попцова Н.Б.</td></tr>
 <tr><td>4</td>	<td>Колупаев Алексей</td>	<td>2003</td>	<td>Кумены</td>	<td>2.32,0</td>	<td>II юн</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
 <tr><td>5</td>	<td>Андреев Алексей</td>	<td>2003</td>	<td>Юность/Фаленки</td>	<td>2.32,8</td>	<td>II юн</td>	<td>Каратаева М.П.</td></tr>
@@ -491,8 +491,8 @@ window.onscroll = function() {
 <tr><td>17</td>	<td>Коробицин Иван</td>	<td>2004</td>	<td>ВятСШОР/Кумены</td>	<td>2.44,5</td>	<td>III юн</td>	<td>Альминова Н.Л.</td></tr>
 <tr><td>18</td>	<td>Канц Ярослав</td>	<td>2003</td>	<td>ВятСШОР</td>	<td>2.44,6</td>	<td>III юн</td>	<td>Трушков А.Н./Трушкова М.В.</td></tr>
 <tr><td>19</td>	<td>Мошкин Лев</td>	<td>2003</td>	<td>ДЮСШ-2</td>	<td>2.45,0</td>	<td>III юн</td>	<td>Жерносек Е.В.</td></tr>
-<tr><td>20</td>	<td>Лагунов Александр</td>	<td>2004</td>	<td>Кирово-Чепецк</td>	<td>2.45,4</td>	<td>III юн</td>	<td>Малых И.С./Малых Н.Л.</td></tr>
-<tr><td>21</td>	<td>Зорин Андрей</td>	<td>2003</td>	<td>Юность</td>	<td>2.46,3</td>	<td>III юн</td>	<td>Филимонова С.А.</td></tr>
+<tr><td>19</td>	<td>Зорин Андрей</td>	<td>2003</td>	<td>Юность</td>	<td>2.45,0</td>	<td>III юн</td>	<td>Филимонова С.А.</td></tr>
+<tr><td>21</td>	<td>Лагунов Александр</td>	<td>2004</td>	<td>Кирово-Чепецк</td>	<td>2.45,4</td>	<td>III юн</td>	<td>Малых И.С./Малых Н.Л.</td></tr>
 <tr><td>22</td>	<td>Низамеев Арсений</td>	<td>2004</td>	<td>ДЮСШ-2</td>	<td>2.46,8</td>	<td>III юн</td>	<td>Жерносек Е.В.</td></tr>
 <tr><td>23</td>	<td>Черкасов Владислав</td>	<td>2004</td>	<td>ВятСШОР/Кумены</td>	<td>2.47,5</td>	<td>III юн</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
 <tr><td>24</td>	<td>Юркин Александр</td>	<td>2003</td>	<td>Кирово-Чепецк</td>	<td>2.48,1</td>	<td>III юн</td>	<td>Малых И.С./Малых Н.Л.</td></tr>
@@ -510,6 +510,28 @@ window.onscroll = function() {
 </tbody></table></div></ul></li><li><a href="#">1000 метров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd20"> <tr><th id="x134">Рейтинг</th><th id="x135">Фамилия Имя</th><th id="x136">Год</th><th id="x137">Организация</th><th id="x138">Результат</th><th id="x139">Разряд</th><th id="x140">Тренер</th></tr></thead><tbody id="tbd20"><th id="z134">Рейтинг</th><th id="z135">Фамилия Имя</th><th id="z136">Год</th><th id="z137">Организация</th><th id="z138">Результат</th><th id="z139">Разряд</th><th id="z140">Тренер</th></tr>						
 
 <tr><td>1</td>	<td>Казаков Артем</td>	<td>2003</td>	<td>ВятСШОР/Рудничный</td>	<td>3.32,1</td>	<td>II юн</td>	<td>Аверина Г.А.</td></tr>
+
+</tbody></table></div></ul></li><li><a href="#">Кросс 1 километр</a><ul><div><table cellpadding="0" class="t1"><thead id="thd22"> <tr><th id="x148">Рейтинг</th><th id="x149">Фамилия Имя</th><th id="x150">Год</th><th id="x151">Организация</th><th id="x152">Результат</th><th id="x153">Разряд</th><th id="x154">Тренер</th></tr></thead><tbody id="tbd22"><th id="z148">Рейтинг</th><th id="z149">Фамилия Имя</th><th id="z150">Год</th><th id="z151">Организация</th><th id="z152">Результат</th><th id="z153">Разряд</th><th id="z154">Тренер</th></tr>						
+
+<tr><td>1</td>	<td>Варанкин Максим</td>	<td>2003</td>	<td>Афанасьево</td>	<td>3.14,4</td>	<td>I юн</td>	<td>Варанкин А.В.</td></tr>
+<tr><td>2</td>	<td>Колупаев Алексей</td>	<td>2003</td>	<td>ВятСШОР/Кумены</td>	<td>3.21,2</td>	<td>II юн</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
+<tr><td>3</td>	<td>Чемоданов Егор</td>	<td>2003</td>	<td>ВятСШОР/Нолинск</td>	<td>3.23,8</td>	<td>II юн</td>	<td>Морозов В.И.</td></tr>
+<tr><td>4</td>	<td>Пешкичев Илья</td>	<td>2003</td>	<td>Нижнеивкино/Кумены</td>	<td>3.31,1</td>	<td>II юн</td>	<td>Банников А.А.</td></tr>
+<tr><td>5</td>	<td>Мартюшов Данил</td>	<td>2004</td>	<td>Кирс</td>	<td>3.31,7</td>	<td>II юн</td>	<td>Балыбердин О.А.</td></tr>
+<tr><td>6</td>	<td>Астанин Андрей</td>	<td>2003</td>	<td>Нижнеивкино/Кумены</td>	<td>3.36,3</td>	<td>II юн</td>	<td>Банников А.А.</td></tr>
+<tr><td>7</td>	<td>Логинов Федор</td>	<td>2003</td>	<td>ВятСШОР/Кумены</td>	<td>3.37,4</td>	<td>III юн</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
+<tr><td>8</td>	<td>Истомин Кирилл</td>	<td>2005</td>	<td>ВятСШОР/Рудничный</td>	<td>3.37,7</td>	<td>III юн</td>	<td>Аверина Г.А.</td></tr>
+<tr><td>9</td>	<td>Казаков Артем</td>	<td>2003</td>	<td>ВятСШОР/Рудничный</td>	<td>3.38,0</td>	<td>III юн</td>	<td>Аверина Г.А.</td></tr>
+<tr><td>10</td>	<td>Порошин Алексей</td>	<td>2004</td>	<td>ВятСШОР</td>	<td>3.38,5</td>	<td>III юн</td>	<td>Холстинина Н.Р./Харин И.В.</td></tr>
+<tr><td>11</td>	<td>Порубов Антон</td>	<td>2005</td>	<td>Афанасьево</td>	<td>3.38,7</td>	<td>III юн</td>	<td>Харин И.В.</td></tr>
+<tr><td>12</td>	<td>Некрасов Дмитрий</td>	<td>2005</td>	<td>Верховье</td>	<td>3.44,3</td>	<td>III юн</td>	<td>Балыбердин А.О.</td></tr>
+<tr><td>13</td>	<td>Фоминых Илья</td>	<td>2004</td>	<td>ВятСШОР/Кумены</td>	<td>3.50,1</td>	<td>III юн</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
+<tr><td>14</td>	<td>Китан Иван</td>	<td>2003</td>	<td>ВятСШОР/Кумены</td>	<td>3.52,2</td>	<td>III юн</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
+<tr><td>15</td>	<td>Мрчеев Руслан</td>	<td>2004</td>	<td>Кумены</td>	<td>3.52,8</td>	<td>III юн</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
+<tr><td>16</td>	<td>Коробицин Иван</td>	<td>2004</td>	<td>ВятСШОР/Кумены</td>	<td>3.53,9</td>	<td>III юн</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
+<tr><td>17</td>	<td>Орлов Валерий</td>	<td>2005</td>	<td>ВятСШОР/Кумены</td>	<td>3.55,8</td>	<td>III юн</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
+<tr><td>18</td>	<td>Журавлев Константин</td>	<td>2005</td>	<td>Нижнеивкино/Кумены</td>	<td>4.21,5</td>	<td>&nbsp</td>	<td>Банников А.А.</td></tr>
+<tr><td>19</td>	<td>Ковязин Илья</td>	<td>2005</td>	<td>Кумены</td>	<td>4.25,6</td>	<td>&nbsp</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
 
 </tbody></table></div></ul></li><li><a href="#">1500 метров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd8"> <tr><th id="x50">Рейтинг</th><th id="x51">Фамилия Имя</th><th id="x52">Год</th><th id="x53">Организация</th><th id="x54">Результат</th><th id="x55">Разряд</th><th id="x56">Тренер</th></tr></thead><tbody id="tbd8"><th id="z50">Рейтинг</th><th id="z51">Фамилия Имя</th><th id="z52">Год</th><th id="z53">Организация</th><th id="z54">Результат</th><th id="z55">Разряд</th><th id="z56">Тренер</th></tr>						
 						
@@ -675,9 +697,9 @@ window.onscroll = function() {
 <tr><td>3</td>	<td>Пестов Александр</td>	<td>2003</td>	<td>Кирово-Чепецк</td>	<td>5,07</td>	<td>I юн</td>	<td>Сырцев В.В.</td></tr>
 <tr><td>4</td>	<td>Колупаев Алексей</td>	<td>2003</td>	<td>ВятСШОР/Кумены</td>	<td>5,00</td>	<td>I юн</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
 <tr><td>5</td>	<td>Ивутин Матвей</td>	<td>2003</td>	<td>ДЮСШ-2</td>	<td>4,93</td>	<td>II юн</td>	<td>Рябова Э.Б.</td></tr>
-<tr><td>6</td>	<td>Фоминых Александр</td>	<td>2003</td>	<td>ДЮСШ-2</td>	<td>4,85</td>	<td>II юн</td>	<td>Полушкина М.В.</td></tr>
-<tr><td>7</td>	<td>Зорин Андрей</td>	<td>2003</td>	<td>Юность</td>	<td>4,78</td>	<td>II юн</td>	<td>Филимонова С.А.</td></tr>
-<tr><td>7</td>	<td>Мокрушин Сергей</td>	<td>2004</td>	<td>Юность </td>	<td>4,78</td>	<td>II юн</td>	<td>Филимонова С.А.</td></tr>
+<tr><td>6</td>	<td>Зорин Андрей</td>	<td>2003</td>	<td>Юность</td>	<td>4,88</td>	<td>II юн</td>	<td>Филимонова С.А.</td></tr>
+<tr><td>7</td>	<td>Фоминых Александр</td>	<td>2003</td>	<td>ДЮСШ-2</td>	<td>4,85</td>	<td>II юн</td>	<td>Полушкина М.В.</td></tr>
+<tr><td>8</td>	<td>Мокрушин Сергей</td>	<td>2004</td>	<td>Юность </td>	<td>4,78</td>	<td>II юн</td>	<td>Филимонова С.А.</td></tr>
 <tr><td>9</td>	<td>Пантелеев Павел</td>	<td>2003</td>	<td>ДЮСШ-2</td>	<td>4,62</td>	<td>II юн</td>	<td>Рябова Э.Б.</td></tr>
 <tr><td>10</td>	<td>Дрягин Максим</td>	<td>2003</td>	<td>ДЮСШ-2</td>	<td>4,60</td>	<td>II юн</td>	<td>Жерносек Е.В.</td></tr>
 <tr><td>11</td>	<td>Патрушев Владислав</td>	<td>2004</td>	<td>Лебяжье</td>	<td>4,59</td>	<td>II юн</td>	<td>Чувашов В.А.</td></tr>
@@ -689,14 +711,14 @@ window.onscroll = function() {
 <tr><td>17</td>	<td>Колесников Илья</td>	<td>2003</td>	<td>Вятские Поляны</td>	<td>4,32</td>	<td>III юн</td>	<td>Лебедев В.И.</td></tr>
 <tr><td>18</td>	<td>Фоминых Илья</td>	<td>2004</td>	<td>ВятСШОР/Кумены</td>	<td>4,29</td>	<td>III юн</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
 <tr><td>19</td>	<td>Кривокрытов Дмитрий</td>	<td>2005</td>	<td>Юность</td>	<td>4,28</td>	<td>III юн</td>	<td>Филимонова С.А.</td></tr>
-<tr><td>20</td>	<td>Наговицын Руслан</td>	<td>2003</td>	<td>ВятСШОР/51 школа</td>	<td>4,25</td>	<td>III юн</td>	<td>Наговицына Е.В.</td></tr>
-<tr><td>21</td>	<td>Порошин Алексей</td>	<td>2004</td>	<td>ВятСШОР</td>	<td>4,20</td>	<td>III юн</td>	<td>Холстинина Н.Р./Харин И.В.</td></tr>
-<tr><td>22</td>	<td>Шулаев Иван</td>	<td>2004</td>	<td>ДЮСШ-2</td>	<td>4,19</td>	<td>III юн</td>	<td>Ситникова Т.И.</td></tr>
-<tr><td>23</td>	<td>Саляхов Айрат</td>	<td>2004</td>	<td>ДЮСШ-2</td>	<td>4,18</td>	<td>III юн</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
-<tr><td>24</td>	<td>Бутин Ярослав</td>	<td>2005</td>	<td>ДЮСШ-2</td>	<td>4,16</td>	<td>III юн</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
-<tr><td>24</td>	<td>Низамеев Арсений</td>	<td>2004</td>	<td>ДЮСШ-2</td>	<td>4,16</td>	<td>III юн</td>	<td>Жерносек Е.В.</td></tr>
-<tr><td>26</td>	<td>Лагунов Александр</td>	<td>2004</td>	<td>Кирово-Чепецк</td>	<td>4,15</td>	<td>III юн</td>	<td>Малых И.С./Малых Н.Л.</td></tr>
-<tr><td>26</td>	<td>Гимадутдинов Ильдар</td>	<td>2005</td>	<td>Вятские Поляны</td>	<td>4,15</td>	<td>III юн</td>	<td>Лебедев В.И.</td></tr>
+<tr><td>20</td>	<td>Лагунов Александр</td>	<td>2004</td>	<td>Кирово-Чепецк</td>	<td>4,27</td>	<td>III юн</td>	<td>Малых И.С./Малых Н.Л.</td></tr>
+<tr><td>21</td>	<td>Наговицын Руслан</td>	<td>2003</td>	<td>ВятСШОР/51 школа</td>	<td>4,25</td>	<td>III юн</td>	<td>Наговицына Е.В.</td></tr>
+<tr><td>22</td>	<td>Порошин Алексей</td>	<td>2004</td>	<td>ВятСШОР</td>	<td>4,20</td>	<td>III юн</td>	<td>Холстинина Н.Р./Харин И.В.</td></tr>
+<tr><td>23</td>	<td>Шулаев Иван</td>	<td>2004</td>	<td>ДЮСШ-2</td>	<td>4,19</td>	<td>III юн</td>	<td>Ситникова Т.И.</td></tr>
+<tr><td>24</td>	<td>Саляхов Айрат</td>	<td>2004</td>	<td>ДЮСШ-2</td>	<td>4,18</td>	<td>III юн</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
+<tr><td>25</td>	<td>Бутин Ярослав</td>	<td>2005</td>	<td>ДЮСШ-2</td>	<td>4,16</td>	<td>III юн</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
+<tr><td>25</td>	<td>Низамеев Арсений</td>	<td>2004</td>	<td>ДЮСШ-2</td>	<td>4,16</td>	<td>III юн</td>	<td>Жерносек Е.В.</td></tr>
+<tr><td>27</td>	<td>Гимадутдинов Ильдар</td>	<td>2005</td>	<td>Вятские Поляны</td>	<td>4,15</td>	<td>III юн</td>	<td>Лебедев В.И.</td></tr>
 <tr><td>28</td>	<td>Вожегов Евгений</td>	<td>2003</td>	<td>ДЮСШ-2</td>	<td>4,12</td>	<td>III юн</td>	<td>Михайлова Л.А.</td></tr>
 <tr><td>29</td>	<td>Юркин Александр</td>	<td>2003</td>	<td>Кирово-Чепецк</td>	<td>4,08</td>	<td>III юн</td>	<td>Малых И.С./Малых Н.Л.</td></tr>
 <tr><td>29</td>	<td>Лянгузов Дмитрий</td>	<td>2004</td>	<td>Юность </td>	<td>4,08</td>	<td>III юн</td>	<td>Казакова З.А./Платунова М.Н.</td></tr>
@@ -775,15 +797,16 @@ window.onscroll = function() {
 <tr><td>1</td>	<td>Гудковский Александр</td>	<td>2005</td>	<td>Кирово-Чепецк</td>	<td>27,60</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
 <tr><td>2</td>	<td>Антушев Дмитрий</td>	<td>2003</td>	<td>Кирово-Чепецк</td>	<td>27,50</td>	<td>&nbsp</td>	<td>Сырцев В.В./Пасынкова Н.Н.</td></tr>
 <tr><td>3</td>	<td>Пестов Александр</td>	<td>2003</td>	<td>Кирово-Чепецк</td>	<td>24,46</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>4</td>	<td>Морданов Денис</td>	<td>2005</td>	<td>Кирово-Чепецк</td>	<td>14,75</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
 						
 </tbody></table></div></ul></li><li><a href="#">Метание снаряда</a><ul><div><table cellpadding="0" class="t1"><thead id="thd16"> <tr><th id="x106">Рейтинг</th><th id="x107">Фамилия Имя</th><th id="x108">Год</th><th id="x109">Организация</th><th id="x110">Результат</th><th id="x111">Разряд</th><th id="x112">Тренер</th></tr></thead><tbody id="tbd16"><th id="z106">Рейтинг</th><th id="z107">Фамилия Имя</th><th id="z108">Год</th><th id="z109">Организация</th><th id="z110">Результат</th><th id="z111">Разряд</th><th id="z112">Тренер</th></tr>						
 						
 <tr><td>1</td>	<td>Мокрушин Сергей</td>	<td>2004</td>	<td>Юность </td>	<td>52,35</td>	<td>&nbsp</td>	<td>Филимонова С.А.</td></tr>
-<tr><td>2</td>	<td>Зорин Андрей</td>	<td>2003</td>	<td>Юность</td>	<td>46,73</td>	<td>II юн</td>	<td>Филимонова С.А.</td></tr>
-<tr><td>3</td>	<td>Гырдымов Семен</td>	<td>2003</td>	<td>Кирово-Чепецк</td>	<td>45,22</td>	<td>II юн</td>	<td>Малых И.С./Малых Н.Л.</td></tr>
-<tr><td>4</td>	<td>Антушев Дмитрий</td>	<td>2003</td>	<td>Кирово-Чепецк</td>	<td>44,29</td>	<td>III юн</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>5</td>	<td>Гудковский Александр</td>	<td>2005</td>	<td>Кирово-Чепецк</td>	<td>43,75</td>	<td>III юн</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>6</td>	<td>Шулаев Иван</td>	<td>2004</td>	<td>ДЮСШ-2</td>	<td>42,94</td>	<td>III юн</td>	<td>Ситникова Т.И.</td></tr>
+<tr><td>2</td>	<td>Зорин Андрей</td>	<td>2003</td>	<td>Юность</td>	<td>48,50</td>	<td>&nbsp</td>	<td>Филимонова С.А.</td></tr>
+<tr><td>3</td>	<td>Гырдымов Семен</td>	<td>2003</td>	<td>Кирово-Чепецк</td>	<td>45,22</td>	<td>&nbsp</td>	<td>Малых И.С./Малых Н.Л.</td></tr>
+<tr><td>4</td>	<td>Антушев Дмитрий</td>	<td>2003</td>	<td>Кирово-Чепецк</td>	<td>44,29</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>5</td>	<td>Гудковский Александр</td>	<td>2005</td>	<td>Кирово-Чепецк</td>	<td>43,75</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
+<tr><td>6</td>	<td>Шулаев Иван</td>	<td>2004</td>	<td>ДЮСШ-2</td>	<td>42,94</td>	<td>&nbsp</td>	<td>Ситникова Т.И.</td></tr>
 <tr><td>7</td>	<td>Дрягин Максим</td>	<td>2003</td>	<td>ДЮСШ-2</td>	<td>42,85</td>	<td>&nbsp</td>	<td>Жерносек Е.В.</td></tr>
 <tr><td>8</td>	<td>Мошкин Лев</td>	<td>2003</td>	<td>ДЮСШ-2</td>	<td>40,98</td>	<td>&nbsp</td>	<td>Жерносек Е.В.</td></tr>
 <tr><td>9</td>	<td>Фоминых Александр</td>	<td>2003</td>	<td>ДЮСШ-2</td>	<td>39,67</td>	<td>&nbsp</td>	<td>Полушкина М.В.</td></tr>
@@ -796,14 +819,14 @@ window.onscroll = function() {
 <tr><td>16</td>	<td>Саляхов Айрат</td>	<td>2004</td>	<td>ДЮСШ-2</td>	<td>35,28</td>	<td>&nbsp</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
 <tr><td>17</td>	<td>Крестьянинов Александр</td>	<td>2005</td>	<td>Юность</td>	<td>34,69</td>	<td>&nbsp</td>	<td>Четвертных С.А.</td></tr>
 <tr><td>18</td>	<td>Морданов Денис</td>	<td>2005</td>	<td>Кирово-Чепецк</td>	<td>34,57</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>19</td>	<td>Лянгузов Дмитрий</td>	<td>2004</td>	<td>Юность </td>	<td>34,36</td>	<td>&nbsp</td>	<td>Казакова З.А./Платунова М.Н.</td></tr>
-<tr><td>20</td>	<td>Черкасов Владислав</td>	<td>2004</td>	<td>ВятСШОР/Кумены</td>	<td>34,20</td>	<td>&nbsp</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
-<tr><td>21</td>	<td>Логинов Федор</td>	<td>2003</td>	<td>ВятСШОР/Кумены</td>	<td>32,60</td>	<td>&nbsp</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
-<tr><td>22</td>	<td>Баранов Владислав</td>	<td>2005</td>	<td>Юность</td>	<td>31,51</td>	<td>&nbsp</td>	<td>Филимонова С.А.</td></tr>
-<tr><td>23</td>	<td>Порошин Алексей</td>	<td>2004</td>	<td>ВятСШОР</td>	<td>31,33</td>	<td>&nbsp</td>	<td>Холстинина Н.Р./Харин И.В.</td></tr>
-<tr><td>24</td>	<td>Орлов Валерий</td>	<td>2005</td>	<td>ВятСШОР/Кумены</td>	<td>30,77</td>	<td>&nbsp</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
-<tr><td>25</td>	<td>Крупин Данил</td>	<td>2006</td>	<td>Кирово-Чепецк</td>	<td>30,32</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
-<tr><td>26</td>	<td>Лагунов Александр</td>	<td>2004</td>	<td>Кирово-Чепецк</td>	<td>30,06</td>	<td>&nbsp</td>	<td>Малых И.С./Малых Н.Л.</td></tr>
+<tr><td>19</td>	<td>Лагунов Александр</td>	<td>2004</td>	<td>Кирово-Чепецк</td>	<td>34,45</td>	<td>&nbsp</td>	<td>Малых И.С./Малых Н.Л.</td></tr>
+<tr><td>20</td>	<td>Лянгузов Дмитрий</td>	<td>2004</td>	<td>Юность </td>	<td>34,36</td>	<td>&nbsp</td>	<td>Казакова З.А./Платунова М.Н.</td></tr>
+<tr><td>21</td>	<td>Черкасов Владислав</td>	<td>2004</td>	<td>ВятСШОР/Кумены</td>	<td>34,20</td>	<td>&nbsp</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
+<tr><td>22</td>	<td>Логинов Федор</td>	<td>2003</td>	<td>ВятСШОР/Кумены</td>	<td>32,60</td>	<td>&nbsp</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
+<tr><td>23</td>	<td>Баранов Владислав</td>	<td>2005</td>	<td>Юность</td>	<td>31,51</td>	<td>&nbsp</td>	<td>Филимонова С.А.</td></tr>
+<tr><td>24</td>	<td>Порошин Алексей</td>	<td>2004</td>	<td>ВятСШОР</td>	<td>31,33</td>	<td>&nbsp</td>	<td>Холстинина Н.Р./Харин И.В.</td></tr>
+<tr><td>25</td>	<td>Орлов Валерий</td>	<td>2005</td>	<td>ВятСШОР/Кумены</td>	<td>30,77</td>	<td>&nbsp</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
+<tr><td>26</td>	<td>Крупин Данил</td>	<td>2006</td>	<td>Кирово-Чепецк</td>	<td>30,32</td>	<td>&nbsp</td>	<td>Сырцев В.В.</td></tr>
 <tr><td>27</td>	<td>Северюхин Александр</td>	<td>2005</td>	<td>Кирово-Чепецк</td>	<td>29,56</td>	<td>&nbsp</td>	<td>Малых И.С./Малых Н.Л.</td></tr>
 <tr><td>28</td>	<td>Бутин Ярослав</td>	<td>2005</td>	<td>ДЮСШ-2</td>	<td>29,00</td>	<td>&nbsp</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
 <tr><td>29</td>	<td>Никулин Матвей</td>	<td>2005</td>	<td>ДЮСШ-2</td>	<td>28,82</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
@@ -945,10 +968,10 @@ window.onscroll = function() {
 </tbody></table></div></ul></li><li><a href="#">4-борье</a><ul><div><table cellpadding="0" class="t1"><thead id="thd19"> <tr><th id="x127">Рейтинг</th><th id="x128">Фамилия Имя</th><th id="x129">Год</th><th id="x130">Организация</th><th id="x131">Результат</th><th id="x132">Разряд</th><th id="x133">Тренер</th></tr></thead><tbody id="tbd19"><th id="z127">Рейтинг</th><th id="z128">Фамилия Имя</th><th id="z129">Год</th><th id="z130">Организация</th><th id="z131">Результат</th><th id="z132">Разряд</th><th id="z133">Тренер</th></tr>						
 						
 <tr><td>1</td>	<td>Колупаев Алексей</td>	<td>2003</td>	<td>ВятСШОР/Кумены</td>	<td>237</td>	<td>&nbsp</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
-<tr><td>2</td>	<td>Мокрушин Сергей</td>	<td>2004</td>	<td>Юность </td>	<td>234</td>	<td>&nbsp</td>	<td>Филимонова С.А.</td></tr>
-<tr><td>3</td>	<td>Гырдымов Семен</td>	<td>2003</td>	<td>Кирово-Чепецк</td>	<td>229</td>	<td>&nbsp</td>	<td>Малых И.С./Малых Н.Л.</td></tr>
-<tr><td>4</td>	<td>Дрягин Максим</td>	<td>2003</td>	<td>ДЮСШ-2</td>	<td>217</td>	<td>&nbsp</td>	<td>Жерносек Е.В.</td></tr>
-<tr><td>5</td>	<td>Зорин Андрей</td>	<td>2003</td>	<td>Юность</td>	<td>211</td>	<td>&nbsp</td>	<td>Филимонова С.А.</td></tr>
+<tr><td>2</td>	<td>Мокрушин Сергей</td>	<td>2004</td>	<td>Юность </td>	<td>236</td>	<td>&nbsp</td>	<td>Филимонова С.А.</td></tr>
+<tr><td>3</td>	<td>Зорин Андрей</td>	<td>2003</td>	<td>Юность</td>	<td>233</td>	<td>&nbsp</td>	<td>Филимонова С.А.</td></tr>
+<tr><td>4</td>	<td>Гырдымов Семен</td>	<td>2003</td>	<td>Кирово-Чепецк</td>	<td>229</td>	<td>&nbsp</td>	<td>Малых И.С./Малых Н.Л.</td></tr>
+<tr><td>5</td>	<td>Дрягин Максим</td>	<td>2003</td>	<td>ДЮСШ-2</td>	<td>217</td>	<td>&nbsp</td>	<td>Жерносек Е.В.</td></tr>
 <tr><td>6</td>	<td>Фоминых Александр</td>	<td>2003</td>	<td>ДЮСШ-2</td>	<td>204</td>	<td>&nbsp</td>	<td>Полушкина М.В.</td></tr>
 <tr><td>6</td>	<td>Ивутин Матвей</td>	<td>2003</td>	<td>ДЮСШ-2</td>	<td>204</td>	<td>&nbsp</td>	<td>Рябова Э.Б.</td></tr>
 <tr><td>8</td>	<td>Мошкин Лев</td>	<td>2003</td>	<td>ДЮСШ-2</td>	<td>194</td>	<td>&nbsp</td>	<td>Жерносек Е.В.</td></tr>
@@ -956,8 +979,9 @@ window.onscroll = function() {
 <tr><td>10</td>	<td>Фоминых Илья</td>	<td>2004</td>	<td>ВятСШОР/Кумены</td>	<td>191</td>	<td>&nbsp</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
 <tr><td>11</td>	<td>Бутин Ярослав</td>	<td>2005</td>	<td>ДЮСШ-2</td>	<td>186</td>	<td>&nbsp</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
 <tr><td>12</td>	<td>Черкасов Владислав</td>	<td>2004</td>	<td>ВятСШОР/Кумены</td>	<td>164</td>	<td>&nbsp</td>	<td>Альминова А.А./Альминова Н.Л.</td></tr>
-<tr><td>13</td>	<td>Никулин Матвей</td>	<td>2005</td>	<td>ДЮСШ-2</td>	<td>161</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>14</td>	<td>Кривокрытов Дмитрий</td>	<td>2005</td>	<td>Юность</td>	<td>140</td>	<td>&nbsp</td>	<td>Филимонова С.А.</td></tr>
+<tr><td>13</td>	<td>Кривокрытов Дмитрий</td>	<td>2005</td>	<td>Юность</td>	<td>163</td>	<td>&nbsp</td>	<td>Филимонова С.А.</td></tr>
+<tr><td>14</td>	<td>Никулин Матвей</td>	<td>2005</td>	<td>ДЮСШ-2</td>	<td>161</td>	<td>&nbsp</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>15</td>	<td>Лагунов Александр</td>	<td>2004</td>	<td>Кирово-Чепецк</td>	<td>160</td>	<td>&nbsp</td>	<td>Малых И.С./Малых Н.Л.</td></tr>
 
 </tbody></table></div></ul></li></ul></li></ul></li><br>						
 

@@ -30,15 +30,15 @@ document.getElementById('leftars').style.left=document.getElementById('ck1s').of
 document.getElementById('rightars').style.left=document.getElementById('ck1s').clientWidth+document.getElementById('ck1s').offsetLeft+'px';
 document.getElementById('leftars').style.top=document.getElementById('ck1s').style.paddingTop;
 document.getElementById('rightars').style.top=document.getElementById('ck1s').style.paddingTop;
- for (var i = 1; i <= 126; i++) {document.getElementById('x'+i).width=document.getElementById('z'+i).clientWidth};
- for (var j = 1; j <= 18; j++) {document.getElementById('thd'+j).style.top=document.getElementById('logos').clientHeight+'px';
+ for (var i = 1; i <= 147; i++) {document.getElementById('x'+i).width=document.getElementById('z'+i).clientWidth};
+ for (var j = 1; j <= 21; j++) {document.getElementById('thd'+j).style.top=document.getElementById('logos').clientHeight+'px';
   if ((window.pageYOffset || document.documentElement.scrollTop)>(getOffset(document.getElementById('tbd'+j)).top-document.getElementById('logos').clientHeight))
 	{document.getElementById('thd'+j).style.visibility="visible";}
 	else {document.getElementById('thd'+j).style.visibility="hidden";}}}
-function Wait(){for (var j = 1; j <= 18; j++) {document.getElementById('thd'+j).style.visibility="hidden"};
+function Wait(){for (var j = 1; j <= 21; j++) {document.getElementById('thd'+j).style.visibility="hidden"};
 setInterval('Sizing()', 1)};
 window.onscroll = function() {
- for (var k = 1; k <= 18; k++) {
+ for (var k = 1; k <= 21; k++) {
  if ((window.pageYOffset || document.documentElement.scrollTop)>(getOffset(document.getElementById('tbd'+k)).top-document.getElementById('logos').clientHeight))
 	{document.getElementById('thd'+k).style.visibility="visible";}
 	else {document.getElementById('thd'+k).style.visibility="hidden";}}}
@@ -131,18 +131,34 @@ window.onscroll = function() {
 <tr><td>2</td>	<td>Вшивцева Анастасия</td>	<td>1982</td>	<td>ВятОСДЮСШОР</td>	<td>11.25,4</td>	<td>II</td>	<td>Марков Я.В.</td></tr>
 <tr><td>3</td>	<td>Семакина Мария</td>	<td>1992</td>	<td>Юность/Мурыгино</td>	<td>12.14,2</td>	<td>III</td>	<td>Караулов С.М.</td></tr>
 						
+</tbody></table></div></ul></li><li><a href="#">5 000 метров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd19"> <tr><th id="x127">Рейтинг</th><th id="x128">Фамилия Имя</th><th id="x129">Год</th><th id="x130">Организация</th><th id="x131">Результат</th><th id="x132">Разряд</th><th id="x133">Тренер</th></tr></thead><tbody id="tbd19"><th id="z127">Рейтинг</th><th id="z128">Фамилия Имя</th><th id="z129">Год</th><th id="z130">Организация</th><th id="z131">Результат</th><th id="z132">Разряд</th><th id="z133">Тренер</th></tr>						
+
+<tr><td>1</td>	<td>Вшивцева Анастасия</td>	<td>1982</td>	<td>ВятСШОР</td>	<td>20.14,2</td>	<td>III</td>	<td>Марков Я.В.</td></tr>
+
+</tbody></table></div></ul></li><li><a href="#">Полумарафон</a><ul><div><table cellpadding="0" class="t1"><thead id="thd21"> <tr><th id="x141">Рейтинг</th><th id="x142">Фамилия Имя</th><th id="x143">Год</th><th id="x144">Организация</th><th id="x145">Результат</th><th id="x146">Разряд</th><th id="x147">Тренер</th></tr></thead><tbody id="tbd21"><th id="z141">Рейтинг</th><th id="z142">Фамилия Имя</th><th id="z143">Год</th><th id="z144">Организация</th><th id="z145">Результат</th><th id="z146">Разряд</th><th id="z147">Тренер</th></tr>						
+
+<tr><td>1</td>	<td>Шиханова Надежда</td>	<td>1984</td>	<td>ВятСШОР</td>	<td>1:23.56,0</td>	<td>I</td>	<td>Пахомов А.М.</td></tr>
+<tr><td>2</td>	<td>Белозерцева Марина</td>	<td>1990</td>	<td>Киров</td>	<td>1:26.12,0</td>	<td>II</td>	<td>Самостоятельно</td></tr>
+<tr><td>3</td>	<td>Попцова Нигина</td>	<td>1988</td>	<td>ВятСШОР</td>	<td>1:27.24,0</td>	<td>II</td>	<td>Трушков А.Н./Трушкова М.В.</td></tr>
+<tr><td>4</td>	<td>Вшивцева Анастасия</td>	<td>1982</td>	<td>ВятСШОР</td>	<td>1:31.56,0</td>	<td>II</td>	<td>Марков Я.В.</td></tr>
+<tr><td>5</td>	<td>Садреева Елена</td>	<td>1965</td>	<td>Киров</td>	<td>2:19.25,6</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>6</td>	<td>Котельникова Лилия</td>	<td>1960</td>	<td>Киров</td>	<td>2:25.19,0</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+
+</tbody></table></div></ul></li><li><a href="#">Марафон</a><ul><div><table cellpadding="0" class="t1"><thead id="thd20"> <tr><th id="x134">Рейтинг</th><th id="x135">Фамилия Имя</th><th id="x136">Год</th><th id="x137">Организация</th><th id="x138">Результат</th><th id="x139">Разряд</th><th id="x140">Тренер</th></tr></thead><tbody id="tbd20"><th id="z134">Рейтинг</th><th id="z135">Фамилия Имя</th><th id="z136">Год</th><th id="z137">Организация</th><th id="z138">Результат</th><th id="z139">Разряд</th><th id="z140">Тренер</th></tr>						
+
+<tr><td>1</td>	<td>Шиханова Надежда</td>	<td>1984</td>	<td>ВятСШОР</td>	<td>2:59.14,0</td>	<td>КМС</td>	<td>Пахомов А.М.</td></tr>
+
 </tbody></table></div></ul></li><li><a href="#">6-часовой бег</a><ul><div><table cellpadding="0" class="t1"><thead id="thd12"> <tr><th id="x78">Рейтинг</th><th id="x79">Фамилия Имя</th><th id="x80">Год</th><th id="x81">Организация</th><th id="x82">Результат</th><th id="x83">Разряд</th><th id="x84">Тренер</th></tr></thead><tbody id="tbd12"><th id="z78">Рейтинг</th><th id="z79">Фамилия Имя</th><th id="z80">Год</th><th id="z81">Организация</th><th id="z82">Результат</th><th id="z83">Разряд</th><th id="z84">Тренер</th></tr>						
 						
-<tr><td>1</td>	<td>Шиханова Надежда</td>	<td>1984</td>	<td>ВятСШОР</td>	<td>69 063</td>	<td>&nbsp</td>	<td>Пахомов А.М.</td></tr>
-<tr><td>2</td>	<td>Вшивцева Анастасия</td>	<td>1982</td>	<td>ВятСШОР</td>	<td>53 892</td>	<td>&nbsp</td>	<td>Марков Я.В.</td></tr>
+<tr><td>1</td>	<td>Шиханова Надежда</td>	<td>1984</td>	<td>ВятСШОР</td>	<td>69063</td>	<td>&nbsp</td>	<td>Пахомов А.М.</td></tr>
 						
 </tbody></table></div></ul></li><li><a href="#">100 000 метров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd11"> <tr><th id="x71">Рейтинг</th><th id="x72">Фамилия Имя</th><th id="x73">Год</th><th id="x74">Организация</th><th id="x75">Результат</th><th id="x76">Разряд</th><th id="x77">Тренер</th></tr></thead><tbody id="tbd11"><th id="z71">Рейтинг</th><th id="z72">Фамилия Имя</th><th id="z73">Год</th><th id="z74">Организация</th><th id="z75">Результат</th><th id="z76">Разряд</th><th id="z77">Тренер</th></tr>						
 						
-<tr><td>1</td>	<td>Шиханова Надежда</td>	<td>1984</td>	<td>ВятСШОР</td>	<td>9:24.26,0</td>	<td>I</td>	<td>Пахомов А.М.</td></tr>
+<tr><td>1</td>	<td>Шиханова Надежда</td>	<td>1984</td>	<td>ВятСШОР</td>	<td>8:02.26,0</td>	<td>МС</td>	<td>Пахомов А.М.</td></tr>
 						
 </tbody></table></div></ul></li><li><a href="#">Суточный бег</a><ul><div><table cellpadding="0" class="t1"><thead id="thd14"> <tr><th id="x92">Рейтинг</th><th id="x93">Фамилия Имя</th><th id="x94">Год</th><th id="x95">Организация</th><th id="x96">Результат</th><th id="x97">Разряд</th><th id="x98">Тренер</th></tr></thead><tbody id="tbd14"><th id="z92">Рейтинг</th><th id="z93">Фамилия Имя</th><th id="z94">Год</th><th id="z95">Организация</th><th id="z96">Результат</th><th id="z97">Разряд</th><th id="z98">Тренер</th></tr>						
 						
-<tr><td>1</td>	<td>Шиханова Надежда</td>	<td>1984</td>	<td>ВятСШОР</td>	<td>211 758</td>	<td>МСМК</td>	<td>Пахомов А.М.</td></tr>
+<tr><td>1</td>	<td>Шиханова Надежда</td>	<td>1984</td>	<td>ВятСШОР</td>	<td>211758</td>	<td>МСМК</td>	<td>Пахомов А.М.</td></tr>
 						
 </tbody></table></div></ul></li><li><a href="#">Эстафета 4 по 200 метров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd13"> <tr><th id="x85">Рейтинг</th><th id="x86">Фамилия Имя</th><th id="x87">Год</th><th id="x88">Организация</th><th id="x89">Результат</th><th id="x90">Разряд</th><th id="x91">Тренер</th></tr></thead><tbody id="tbd13"><th id="z85">Рейтинг</th><th id="z86">Фамилия Имя</th><th id="z87">Год</th><th id="z88">Организация</th><th id="z89">Результат</th><th id="z90">Разряд</th><th id="z91">Тренер</th></tr>						
 						
@@ -156,11 +172,12 @@ window.onscroll = function() {
 </tbody></table></div></ul></li><li><a href="#">Прыжки в высоту</a><ul><div><table cellpadding="0" class="t1"><thead id="thd17"> <tr><th id="x113">Рейтинг</th><th id="x114">Фамилия Имя</th><th id="x115">Год</th><th id="x116">Организация</th><th id="x117">Результат</th><th id="x118">Разряд</th><th id="x119">Тренер</th></tr></thead><tbody id="tbd17"><th id="z113">Рейтинг</th><th id="z114">Фамилия Имя</th><th id="z115">Год</th><th id="z116">Организация</th><th id="z117">Результат</th><th id="z118">Разряд</th><th id="z119">Тренер</th></tr>						
 						
 <tr><td>1</td>	<td>Рублева Людмила</td>	<td>1958</td>	<td>Киров</td>	<td>1,20</td>	<td>II юн</td>	<td>Самостоятельно</td></tr>
+<tr><td>2</td>	<td>Буторова Маргарита</td>	<td>1963</td>	<td>&nbsp</td>	<td>1,06</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
 
 </tbody></table></div></ul></li><li><a href="#">Метание копья</a><ul><div><table cellpadding="0" class="t1"><thead id="thd15"> <tr><th id="x99">Рейтинг</th><th id="x100">Фамилия Имя</th><th id="x101">Год</th><th id="x102">Организация</th><th id="x103">Результат</th><th id="x104">Разряд</th><th id="x105">Тренер</th></tr></thead><tbody id="tbd15"><th id="z99">Рейтинг</th><th id="z100">Фамилия Имя</th><th id="z101">Год</th><th id="z102">Организация</th><th id="z103">Результат</th><th id="z104">Разряд</th><th id="z105">Тренер</th></tr>						
 						
 <tr><td>1</td>	<td>Муравьева Анастасия</td>	<td>1993</td>	<td>ВятГУ</td>	<td>41,95</td>	<td>I</td>	<td>Подковырин В.Д.</td></tr>
-						
+							
 </tbody></table></div></ul></li><li><a href="#">Толкание ядра</a><ul><div><table cellpadding="0" class="t1"><thead id="thd18"> <tr><th id="x120">Рейтинг</th><th id="x121">Фамилия Имя</th><th id="x122">Год</th><th id="x123">Организация</th><th id="x124">Результат</th><th id="x125">Разряд</th><th id="x126">Тренер</th></tr></thead><tbody id="tbd18"><th id="z120">Рейтинг</th><th id="z121">Фамилия Имя</th><th id="z122">Год</th><th id="z123">Организация</th><th id="z124">Результат</th><th id="z125">Разряд</th><th id="z126">Тренер</th></tr>						
 
 <tr><td>1</td>	<td>Муравьева Анастасия</td>	<td>1993</td>	<td>ВятГУ</td>	<td>13,05</td>	<td>I</td>	<td>Подковырин В.Д.</td></tr>

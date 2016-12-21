@@ -30,15 +30,15 @@ document.getElementById('leftars').style.left=document.getElementById('ck1s').of
 document.getElementById('rightars').style.left=document.getElementById('ck1s').clientWidth+document.getElementById('ck1s').offsetLeft+'px';
 document.getElementById('leftars').style.top=document.getElementById('ck1s').style.paddingTop;
 document.getElementById('rightars').style.top=document.getElementById('ck1s').style.paddingTop;
- for (var i = 1; i <= 168; i++) {document.getElementById('x'+i).width=document.getElementById('z'+i).clientWidth};
- for (var j = 1; j <= 24; j++) {document.getElementById('thd'+j).style.top=document.getElementById('logos').clientHeight+'px';
+ for (var i = 1; i <= 182; i++) {document.getElementById('x'+i).width=document.getElementById('z'+i).clientWidth};
+ for (var j = 1; j <= 26; j++) {document.getElementById('thd'+j).style.top=document.getElementById('logos').clientHeight+'px';
   if ((window.pageYOffset || document.documentElement.scrollTop)>(getOffset(document.getElementById('tbd'+j)).top-document.getElementById('logos').clientHeight))
 	{document.getElementById('thd'+j).style.visibility="visible";}
 	else {document.getElementById('thd'+j).style.visibility="hidden";}}}
-function Wait(){for (var j = 1; j <= 24; j++) {document.getElementById('thd'+j).style.visibility="hidden"};
+function Wait(){for (var j = 1; j <= 26; j++) {document.getElementById('thd'+j).style.visibility="hidden"};
 setInterval('Sizing()', 1)};
 window.onscroll = function() {
- for (var k = 1; k <= 24; k++) {
+ for (var k = 1; k <= 26; k++) {
  if ((window.pageYOffset || document.documentElement.scrollTop)>(getOffset(document.getElementById('tbd'+k)).top-document.getElementById('logos').clientHeight))
 	{document.getElementById('thd'+k).style.visibility="visible";}
 	else {document.getElementById('thd'+k).style.visibility="hidden";}}}
@@ -205,9 +205,19 @@ window.onscroll = function() {
 <tr><td>2</td>	<td>Мухаева Елена</td>	<td>1998</td>	<td>ДЮСШ-2</td>	<td>14.02,6</td>	<td>II юн</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
 <tr><td>3</td>	<td>Сабрекова Виктория</td>	<td>1998</td>	<td>ДЮСШ-2</td>	<td>14.07,8</td>	<td>II юн</td>	<td>Михайлова Л.А.</td></tr>
 						
-</tbody></table></div></ul></li><li><a href="#">Кросс 4 000 метров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd20"> <tr><th id="x134">Рейтинг</th><th id="x135">Фамилия Имя</th><th id="x136">Год</th><th id="x137">Организация</th><th id="x138">Результат</th><th id="x139">Разряд</th><th id="x140">Тренер</th></tr></thead><tbody id="tbd20"><th id="z134">Рейтинг</th><th id="z135">Фамилия Имя</th><th id="z136">Год</th><th id="z137">Организация</th><th id="z138">Результат</th><th id="z139">Разряд</th><th id="z140">Тренер</th></tr>						
+</tbody></table></div></ul></li><li><a href="#">Кросс 3 километра</a><ul><div><table cellpadding="0" class="t1"><thead id="thd25"> <tr><th id="x169">Рейтинг</th><th id="x170">Фамилия Имя</th><th id="x171">Год</th><th id="x172">Организация</th><th id="x173">Результат</th><th id="x174">Разряд</th><th id="x175">Тренер</th></tr></thead><tbody id="tbd25"><th id="z169">Рейтинг</th><th id="z170">Фамилия Имя</th><th id="z171">Год</th><th id="z172">Организация</th><th id="z173">Результат</th><th id="z174">Разряд</th><th id="z175">Тренер</th></tr>						
+
+<tr><td>1</td>	<td>Прозорова Инна</td>	<td>1997</td>	<td>ВятСШОР/ВятГУ</td>	<td>12.38,4</td>	<td>I юн</td>	<td>Марков Я.В./Прозоров В.В.</td></tr>
+<tr><td>2</td>	<td>Окатьева Валерия</td>	<td>1997</td>	<td>ВятСШОР</td>	<td>12.51,7</td>	<td>I юн</td>	<td>Холстинина Н.Р.</td></tr>
+<tr><td>3</td>	<td>Мухаева Елена</td>	<td>1998</td>	<td>ДЮСШ-2/ПГАФКСИТ</td>	<td>14.49,3</td>	<td>III юн</td>	<td>Следников Е.В./Следникова Е.Л.</td></tr>
+
+</tbody></table></div></ul></li><li><a href="#">Кросс 4 километра</a><ul><div><table cellpadding="0" class="t1"><thead id="thd20"> <tr><th id="x134">Рейтинг</th><th id="x135">Фамилия Имя</th><th id="x136">Год</th><th id="x137">Организация</th><th id="x138">Результат</th><th id="x139">Разряд</th><th id="x140">Тренер</th></tr></thead><tbody id="tbd20"><th id="z134">Рейтинг</th><th id="z135">Фамилия Имя</th><th id="z136">Год</th><th id="z137">Организация</th><th id="z138">Результат</th><th id="z139">Разряд</th><th id="z140">Тренер</th></tr>						
 
 <tr><td>1</td>	<td>Прозорова Инна</td>	<td>1997</td>	<td>ВятСШОР/ВятГУ</td>	<td>16.02,0</td>	<td>III</td>	<td>Марков Я.В./Прозоров В.В.</td></tr>
+
+</tbody></table></div></ul></li><li><a href="#">Полумарафон</a><ul><div><table cellpadding="0" class="t1"><thead id="thd26"> <tr><th id="x176">Рейтинг</th><th id="x177">Фамилия Имя</th><th id="x178">Год</th><th id="x179">Организация</th><th id="x180">Результат</th><th id="x181">Разряд</th><th id="x182">Тренер</th></tr></thead><tbody id="tbd26"><th id="z176">Рейтинг</th><th id="z177">Фамилия Имя</th><th id="z178">Год</th><th id="z179">Организация</th><th id="z180">Результат</th><th id="z181">Разряд</th><th id="z182">Тренер</th></tr>						
+
+<tr><td>1</td>	<td>Прозорова Инна</td>	<td>1997</td>	<td>ВятСШОР/ВятГУ</td>	<td>1:37.28,0</td>	<td>III</td>	<td>Марков Я.В./Прозоров В.В.</td></tr>
 
 </tbody></table></div></ul></li><li><a href="#">Марафон</a><ul><div><table cellpadding="0" class="t1"><thead id="thd21"> <tr><th id="x141">Рейтинг</th><th id="x142">Фамилия Имя</th><th id="x143">Год</th><th id="x144">Организация</th><th id="x145">Результат</th><th id="x146">Разряд</th><th id="x147">Тренер</th></tr></thead><tbody id="tbd21"><th id="z141">Рейтинг</th><th id="z142">Фамилия Имя</th><th id="z143">Год</th><th id="z144">Организация</th><th id="z145">Результат</th><th id="z146">Разряд</th><th id="z147">Тренер</th></tr>						
 

@@ -30,15 +30,15 @@ document.getElementById('leftars').style.left=document.getElementById('ck1s').of
 document.getElementById('rightars').style.left=document.getElementById('ck1s').clientWidth+document.getElementById('ck1s').offsetLeft+'px';
 document.getElementById('leftars').style.top=document.getElementById('ck1s').style.paddingTop;
 document.getElementById('rightars').style.top=document.getElementById('ck1s').style.paddingTop;
- for (var i = 1; i <= 161; i++) {document.getElementById('x'+i).width=document.getElementById('z'+i).clientWidth};
- for (var j = 1; j <= 23; j++) {document.getElementById('thd'+j).style.top=document.getElementById('logos').clientHeight+'px';
+ for (var i = 1; i <= 189; i++) {document.getElementById('x'+i).width=document.getElementById('z'+i).clientWidth};
+ for (var j = 1; j <= 27; j++) {document.getElementById('thd'+j).style.top=document.getElementById('logos').clientHeight+'px';
   if ((window.pageYOffset || document.documentElement.scrollTop)>(getOffset(document.getElementById('tbd'+j)).top-document.getElementById('logos').clientHeight))
 	{document.getElementById('thd'+j).style.visibility="visible";}
 	else {document.getElementById('thd'+j).style.visibility="hidden";}}}
-function Wait(){for (var j = 1; j <= 23; j++) {document.getElementById('thd'+j).style.visibility="hidden"};
+function Wait(){for (var j = 1; j <= 27; j++) {document.getElementById('thd'+j).style.visibility="hidden"};
 setInterval('Sizing()', 1)};
 window.onscroll = function() {
- for (var k = 1; k <= 23; k++) {
+ for (var k = 1; k <= 27; k++) {
  if ((window.pageYOffset || document.documentElement.scrollTop)>(getOffset(document.getElementById('tbd'+k)).top-document.getElementById('logos').clientHeight))
 	{document.getElementById('thd'+k).style.visibility="visible";}
 	else {document.getElementById('thd'+k).style.visibility="hidden";}}}
@@ -101,25 +101,27 @@ window.onscroll = function() {
 </tbody></table></div></ul></li><li><a href="#">100 метров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd2"> <tr><th id="x8">Рейтинг</th><th id="x9">Фамилия Имя</th><th id="x10">Год</th><th id="x11">Организация</th><th id="x12">Результат</th><th id="x13">Разряд</th><th id="x14">Тренер</th></tr></thead><tbody id="tbd2"><th id="z8">Рейтинг</th><th id="z9">Фамилия Имя</th><th id="z10">Год</th><th id="z11">Организация</th><th id="z12">Результат</th><th id="z13">Разряд</th><th id="z14">Тренер</th></tr>						
 						
 <tr><td>1</td>	<td>Усатов Александр</td>	<td>1991</td>	<td>Юность/МЧС</td>	<td>10,4</td>	<td>КМС</td>	<td>Егоров А.А.</td></tr>
-<tr><td>2</td>	<td>Щекутьев Константин</td>	<td>1993</td>	<td>ВятСШОР/ВятГУ</td>	<td>10,8</td>	<td>I</td>	<td>Трушков А.Н./Трушкова М.В.</td></tr>
+<tr><td>2</td>	<td>Щекутьев Константин</td>	<td>1993</td>	<td>ВятСШОР/ВятГУ</td>	<td>10,6</td>	<td>КМС</td>	<td>Трушков А.Н./Трушкова М.В.</td></tr>
 <tr><td>3</td>	<td>Попцов Александр</td>	<td>1988</td>	<td>ВятОСДЮСШОР</td>	<td>11,1</td>	<td>I</td>	<td>Попцова А.С.</td></tr>
 <tr><td>4</td>	<td>Казаковцев Владислав</td>	<td>1991</td>	<td>ВятСШОР</td>	<td>11,5</td>	<td>II</td>	<td>Наговицына Е.В.</td></tr>
 <tr><td>5</td>	<td>Леонтьев Даниил</td>	<td>1991</td>	<td>Юность/Фаленки</td>	<td>11,6</td>	<td>II</td>	<td>Каратаева М.П.</td></tr>
 <tr><td>6</td>	<td>Коновалов Юрий</td>	<td>1985</td>	<td>ВятГГУ</td>	<td>11,7</td>	<td>II</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>7</td>	<td>Грязев Евгений</td>	<td>1991</td>	<td>ВятСШОР</td>	<td>12,1</td>	<td>III</td>	<td>Соловьев В.И.</td></tr>
-<tr><td>7</td>	<td>Хориков Александр</td>	<td>1988</td>	<td>&nbsp</td>	<td>12,1</td>	<td>III</td>	<td>Самостоятельно</td></tr>
-<tr><td>9</td>	<td>Принцев Анатолий</td>	<td>1988</td>	<td>Юность</td>	<td>12,9</td>	<td>I юн</td>	<td>Егорова Л.Г.</td></tr>
-<tr><td>10</td>	<td>Баранцев Владимир</td>	<td>1961</td>	<td>&nbsp</td>	<td>14,2</td>	<td>II юн</td>	<td>Самостоятельно</td></tr>
+<tr><td>6</td>	<td>Грязев Евгений</td>	<td>1991</td>	<td>ВятСШОР</td>	<td>11,7</td>	<td>II</td>	<td>Соловьев В.И.</td></tr>
+<tr><td>8</td>	<td>Хориков Александр</td>	<td>1988</td>	<td>&nbsp</td>	<td>12,1</td>	<td>III</td>	<td>Самостоятельно</td></tr>
+<tr><td>9</td>	<td>Принцев Анатолий</td>	<td>1988</td>	<td>Юность</td>	<td>12,5</td>	<td>III</td>	<td>Егорова Л.Г.</td></tr>
+<tr><td>10</td>	<td>Балобанов Анатолий</td>	<td>1955</td>	<td>Самостоятельно</td>	<td>12,7</td>	<td>III</td>	<td>Самостоятельно</td></tr>
+<tr><td>11</td>	<td>Баранцев Владимир</td>	<td>1961</td>	<td>&nbsp</td>	<td>14,2</td>	<td>II юн</td>	<td>Самостоятельно</td></tr>
 						
 </tbody></table></div></ul></li><li><a href="#">200 метров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd3"> <tr><th id="x15">Рейтинг</th><th id="x16">Фамилия Имя</th><th id="x17">Год</th><th id="x18">Организация</th><th id="x19">Результат</th><th id="x20">Разряд</th><th id="x21">Тренер</th></tr></thead><tbody id="tbd3"><th id="z15">Рейтинг</th><th id="z16">Фамилия Имя</th><th id="z17">Год</th><th id="z18">Организация</th><th id="z19">Результат</th><th id="z20">Разряд</th><th id="z21">Тренер</th></tr>						
 						
 <tr><td>1</td>	<td>Щекутьев Константин</td>	<td>1993</td>	<td>ВятСШОР/ВятГУ</td>	<td>22,2</td>	<td>I</td>	<td>Трушков А.Н./Трушкова М.В.</td></tr>
 <tr><td>2</td>	<td>Попцов Александр</td>	<td>1988</td>	<td>ВятСШОР/КФК РББ</td>	<td>22,9</td>	<td>I</td>	<td>Попцова Н.Б.</td></tr>
-<tr><td>3</td>	<td>Леонтьев Даниил</td>	<td>1991</td>	<td>Юность/Фаленки</td>	<td>24,2</td>	<td>II</td>	<td>Каратаева М.П.</td></tr>
+<tr><td>3</td>	<td>Леонтьев Даниил</td>	<td>1991</td>	<td>Юность/Фаленки/КФК РББ</td>	<td>23,8</td>	<td>II</td>	<td>Каратаева М.П.</td></tr>
 <tr><td>4</td>	<td>Коновалов Юрий</td>	<td>1985</td>	<td>ВятГГУ</td>	<td>25,0</td>	<td>III</td>	<td>Михайлова Л.А.</td></tr>
 <tr><td>5</td>	<td>Казаковцев Владислав</td>	<td>1991</td>	<td>ВятСШОР</td>	<td>25,2</td>	<td>III</td>	<td>Наговицына Е.В.</td></tr>
 <tr><td>6</td>	<td>Балабанов Анатолий</td>	<td>1955</td>	<td>&nbsp</td>	<td>25,7</td>	<td>I юн</td>	<td>Самостоятельно</td></tr>
-<tr><td>7</td>	<td>Баранцев Владимир</td>	<td>1961</td>	<td>&nbsp</td>	<td>30,1</td>	<td>II юн</td>	<td>Самостоятельно</td></tr>
+<tr><td>7</td>	<td>Принцев Анатолий</td>	<td>1988</td>	<td>Юность</td>	<td>27,4</td>	<td>I юн</td>	<td>Егорова Л.Г.</td></tr>
+<tr><td>8</td>	<td>Баранцев Владимир</td>	<td>1961</td>	<td>&nbsp</td>	<td>29,5</td>	<td>II юн</td>	<td>Самостоятельно</td></tr>
 						
 </tbody></table></div></ul></li><li><a href="#">300 метров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd4"> <tr><th id="x22">Рейтинг</th><th id="x23">Фамилия Имя</th><th id="x24">Год</th><th id="x25">Организация</th><th id="x26">Результат</th><th id="x27">Разряд</th><th id="x28">Тренер</th></tr></thead><tbody id="tbd4"><th id="z22">Рейтинг</th><th id="z23">Фамилия Имя</th><th id="z24">Год</th><th id="z25">Организация</th><th id="z26">Результат</th><th id="z27">Разряд</th><th id="z28">Тренер</th></tr>						
 						
@@ -133,6 +135,8 @@ window.onscroll = function() {
 <tr><td>4</td>	<td>Казаковцев Владислав</td>	<td>1991</td>	<td>ВятСШОР</td>	<td>56,1</td>	<td>III</td>	<td>Наговицына Е.В.</td></tr>
 <tr><td>5</td>	<td>Коновалов Юрий</td>	<td>1985</td>	<td>ВятГГУ</td>	<td>58,2</td>	<td>III</td>	<td>Михайлова Л.А.</td></tr>
 <tr><td>6</td>	<td>Баранцев Владимир</td>	<td>1961</td>	<td>&nbsp</td>	<td>1.07,6</td>	<td>II юн</td>	<td>Самостоятельно</td></tr>
+<tr><td>7</td>	<td>Гавшин Василий</td>	<td>1948</td>	<td>СК Прогресс</td>	<td>1.16,6</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>8</td>	<td>Суворов Николай</td>	<td>1935</td>	<td>Кирс</td>	<td>1.31,7</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
 						
 </tbody></table></div></ul></li><li><a href="#">600 метров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd6"> <tr><th id="x36">Рейтинг</th><th id="x37">Фамилия Имя</th><th id="x38">Год</th><th id="x39">Организация</th><th id="x40">Результат</th><th id="x41">Разряд</th><th id="x42">Тренер</th></tr></thead><tbody id="tbd6"><th id="z36">Рейтинг</th><th id="z37">Фамилия Имя</th><th id="z38">Год</th><th id="z39">Организация</th><th id="z40">Результат</th><th id="z41">Разряд</th><th id="z42">Тренер</th></tr>						
 						
@@ -144,9 +148,11 @@ window.onscroll = function() {
 						
 <tr><td>1</td>	<td>Патрин Сергей</td>	<td>1988</td>	<td>ВятСШОР/МЧС</td>	<td>2.02,5</td>	<td>II</td>	<td>Марков Я.В.</td></tr>
 <tr><td>2</td>	<td>Лопатин Олег</td>	<td>1987</td>	<td>Газпром</td>	<td>2.02,7</td>	<td>II</td>	<td>Самостоятельно</td></tr>
-<tr><td>3</td>	<td>Леонтьев Даниил</td>	<td>1991</td>	<td>Юность/Фаленки</td>	<td>2.11,3</td>	<td>III</td>	<td>Каратаева М.П.</td></tr>
-<tr><td>4</td>	<td>Четвертных Сергей</td>	<td>1991</td>	<td>КФК РББ</td>	<td>2.24,3</td>	<td>I юн</td>	<td>Следников Е.В./Крутиков А.К.</td></tr>
-<tr><td>5</td>	<td>Бакин Илья</td>	<td>1988</td>	<td>Киров</td>	<td>2.29,4</td>	<td>I юн</td>	<td>Самостоятельно</td></tr>
+<tr><td>3</td>	<td>Даровских Евгений</td>	<td>1992</td>	<td>ВятСШОР/ВятГУ</td>	<td>2.11,1</td>	<td>III</td>	<td>Марков Я.В.</td></tr>
+<tr><td>4</td>	<td>Леонтьев Даниил</td>	<td>1991</td>	<td>Юность/Фаленки</td>	<td>2.11,3</td>	<td>III</td>	<td>Каратаева М.П.</td></tr>
+<tr><td>5</td>	<td>Четвертных Сергей</td>	<td>1991</td>	<td>КФК РББ</td>	<td>2.24,3</td>	<td>I юн</td>	<td>Следников Е.В./Крутиков А.К.</td></tr>
+<tr><td>6</td>	<td>Бакин Илья</td>	<td>1988</td>	<td>Киров</td>	<td>2.29,4</td>	<td>I юн</td>	<td>Самостоятельно</td></tr>
+<tr><td>7</td>	<td>Суворов Николай</td>	<td>1935</td>	<td>Кирс</td>	<td>3.34,6</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
 						
 </tbody></table></div></ul></li><li><a href="#">1 500 метров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd9"> <tr><th id="x57">Рейтинг</th><th id="x58">Фамилия Имя</th><th id="x59">Год</th><th id="x60">Организация</th><th id="x61">Результат</th><th id="x62">Разряд</th><th id="x63">Тренер</th></tr></thead><tbody id="tbd9"><th id="z57">Рейтинг</th><th id="z58">Фамилия Имя</th><th id="z59">Год</th><th id="z60">Организация</th><th id="z61">Результат</th><th id="z62">Разряд</th><th id="z63">Тренер</th></tr>						
 						
@@ -173,49 +179,112 @@ window.onscroll = function() {
 <tr><td>8</td>	<td>Голубев Михаил</td>	<td>1981</td>	<td>Динамо</td>	<td>10.06,0</td>	<td>III</td>	<td>Самостоятельно</td></tr>
 <tr><td>9</td>	<td>Куклин Андрей</td>	<td>1989</td>	<td>ДЮСШ-2</td>	<td>11.20,3</td>	<td>II юн</td>	<td>Следников Е.В./Следникова Е.Л./Яровиков М.Н.</td></tr>
 						
+</tbody></table></div></ul></li><li><a href="#">5 000 метров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd24"> <tr><th id="x162">Рейтинг</th><th id="x163">Фамилия Имя</th><th id="x164">Год</th><th id="x165">Организация</th><th id="x166">Результат</th><th id="x167">Разряд</th><th id="x168">Тренер</th></tr></thead><tbody id="tbd24"><th id="z162">Рейтинг</th><th id="z163">Фамилия Имя</th><th id="z164">Год</th><th id="z165">Организация</th><th id="z166">Результат</th><th id="z167">Разряд</th><th id="z168">Тренер</th></tr>						
+
+<tr><td>1</td>	<td>Калинин Андрей</td>	<td>1993</td>	<td>ВятСШОР/ВятГУ</td>	<td>16.32,1</td>	<td>II</td>	<td>Трушков А.Н./Трушкова М.В.</td></tr>
+<tr><td>2</td>	<td>Мочалов Денис</td>	<td>1976</td>	<td>Даровской</td>	<td>19.36,4</td>	<td>II юн</td>	<td>Самостоятельно</td></tr>
+<tr><td>3</td>	<td>Тимкин Михаил</td>	<td>1981</td>	<td>Тандем</td>	<td>20.10,8</td>	<td>II юн</td>	<td>Баранцев В.А.</td></tr>
+
+</tbody></table></div></ul></li><li><a href="#">Кросс 5 километров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd26"> <tr><th id="x176">Рейтинг</th><th id="x177">Фамилия Имя</th><th id="x178">Год</th><th id="x179">Организация</th><th id="x180">Результат</th><th id="x181">Разряд</th><th id="x182">Тренер</th></tr></thead><tbody id="tbd26"><th id="z176">Рейтинг</th><th id="z177">Фамилия Имя</th><th id="z178">Год</th><th id="z179">Организация</th><th id="z180">Результат</th><th id="z181">Разряд</th><th id="z182">Тренер</th></tr>						
+
+<tr><td>1</td>	<td>Калинин Андрей</td>	<td>1993</td>	<td>ВятСШОР/ВятГУ</td>	<td>16.33,7</td>	<td>II</td>	<td>Трушков А.Н./Трушкова М.В.</td></tr>
+<tr><td>2</td>	<td>Алцыбеев Сергей</td>	<td>1990</td>	<td>Киров</td>	<td>16.38,6</td>	<td>II</td>	<td>Самостоятельно</td></tr>
+<tr><td>3</td>	<td>Четвериков Анатолий</td>	<td>1990</td>	<td>ВятСШОР/Динамо</td>	<td>16.41,1</td>	<td>II</td>	<td>Марков Я.В.</td></tr>
+
 </tbody></table></div></ul></li><li><a href="#">Полумарафон</a><ul><div><table cellpadding="0" class="t1"><thead id="thd14"> <tr><th id="x92">Рейтинг</th><th id="x93">Фамилия Имя</th><th id="x94">Год</th><th id="x95">Организация</th><th id="x96">Результат</th><th id="x97">Разряд</th><th id="x98">Тренер</th></tr></thead><tbody id="tbd14"><th id="z92">Рейтинг</th><th id="z93">Фамилия Имя</th><th id="z94">Год</th><th id="z95">Организация</th><th id="z96">Результат</th><th id="z97">Разряд</th><th id="z98">Тренер</th></tr>						
 						
-<tr><td>1</td>	<td>Тетенькин Артем</td>	<td>1975</td>	<td>Динамо</td>	<td>1:14.47,0</td>	<td>II</td>	<td>Ронжин А.Б.</td></tr>
-<tr><td>2</td>	<td>Четвериков Анатолий</td>	<td>1990</td>	<td>ВятСШОР</td>	<td>1:19.54,0</td>	<td>III</td>	<td>Марков Я.В.</td></tr>
+<tr><td>1</td>	<td>Санников Игорь</td>	<td>1989</td>	<td>ВятСШОР</td>	<td>1:09.58,0</td>	<td>I</td>	<td>Трушков А.Н./Трушкова М.В.</td></tr>
+<tr><td>2</td>	<td>Алцыбеев Сергей</td>	<td>1990</td>	<td>Киров</td>	<td>1:12.19,0</td>	<td>II</td>	<td>Самостоятельно</td></tr>
+<tr><td>3</td>	<td>Тетенькин Артем</td>	<td>1975</td>	<td>Динамо</td>	<td>1:14.47,0</td>	<td>II</td>	<td>Ронжин А.Б.</td></tr>
+<tr><td>4</td>	<td>Четвериков Анатолий</td>	<td>1990</td>	<td>ВятСШОР/Динамо</td>	<td>1:14.52,0</td>	<td>II</td>	<td>Марков Я.В.</td></tr>
+<tr><td>5</td>	<td>Патрин Сергей</td>	<td>1988</td>	<td>Киров</td>	<td>1:17.06,1</td>	<td>III</td>	<td>Самостоятельно</td></tr>
+<tr><td>6</td>	<td>Черных Арсений</td>	<td>1988</td>	<td>Слободской</td>	<td>1:17.25,4</td>	<td>III</td>	<td>&nbsp</td></tr>
+<tr><td>7</td>	<td>Ефремов Олег</td>	<td>1966</td>	<td>Киров</td>	<td>1:19.54,4</td>	<td>III</td>	<td>Самостоятельно</td></tr>
+<tr><td>8</td>	<td>Калинин Андрей</td>	<td>1993</td>	<td>ВятСШОР</td>	<td>1:22.54,6</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>9</td>	<td>Самсон Александр</td>	<td>1983</td>	<td>Киров</td>	<td>1:26.11,8</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>10</td>	<td>Васильев Алексей</td>	<td>1979</td>	<td>Киров</td>	<td>1:26.16,3</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>11</td>	<td>Леушин Василий</td>	<td>1982</td>	<td>Киров</td>	<td>1:26.29,2</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>12</td>	<td>Соколан Дмитрий</td>	<td>1985</td>	<td>Киров</td>	<td>1:26.31,5</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>13</td>	<td>Леонтьев Даниил</td>	<td>1991</td>	<td>Юность/Фаленки/КФК РББ</td>	<td>1:27.01,0</td>	<td>&nbsp</td>	<td>Каратаева М.П.</td></tr>
+<tr><td>14</td>	<td>Кунилов Алексей</td>	<td>1981</td>	<td>Киров</td>	<td>1:27.15,0</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>15</td>	<td>Кротов Александр</td>	<td>1985</td>	<td>Киров</td>	<td>1:28.15,0</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>16</td>	<td>Тарасов Сергей</td>	<td>1968</td>	<td>Куменский район</td>	<td>1:29.25,4</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>17</td>	<td>Тимкин Михаил</td>	<td>1981</td>	<td>Тандем</td>	<td>1:29.32,0</td>	<td>&nbsp</td>	<td>Баранцев В.А.</td></tr>
+<tr><td>18</td>	<td>Княгин Олег</td>	<td>1973</td>	<td>ВятСШОР</td>	<td>1:30.43,0</td>	<td>&nbsp</td>	<td>Гурина Л.М.</td></tr>
+<tr><td>19</td>	<td>Маринкевич Александр</td>	<td>1958</td>	<td>Киров</td>	<td>1:32.35,0</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>20</td>	<td>Черемискин Александр</td>	<td>1973</td>	<td>Кумены</td>	<td>1:33.57,0</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>21</td>	<td>Скрипин Юрий</td>	<td>1955</td>	<td>Киров</td>	<td>1:35.24,1</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>22</td>	<td>Скопин Геннадий</td>	<td>1952</td>	<td>ВятСШОР</td>	<td>1:37.54,7</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>23</td>	<td>Дрожачих Владимир</td>	<td>1953</td>	<td>Вахруши</td>	<td>1:39.33,7</td>	<td>&nbsp</td>	<td>&nbsp</td></tr>
+<tr><td>24</td>	<td>Карловский Владимир</td>	<td>1957</td>	<td>Богородский район</td>	<td>1:42.37,6</td>	<td>&nbsp</td>	<td>&nbsp</td></tr>
+<tr><td>25</td>	<td>Куклин Андрей</td>	<td>1989</td>	<td>ДЮСШ-2</td>	<td>1:43.19,6</td>	<td>&nbsp</td>	<td>Следников Е.В./Следникова Е.Л./Яровиков М.Н.</td></tr>
+<tr><td>26</td>	<td>Колобов Олег</td>	<td>1989</td>	<td>Киров</td>	<td>1:43.22,4</td>	<td>&nbsp</td>	<td>&nbsp</td></tr>
+<tr><td>27</td>	<td>Кузьминых Михаил</td>	<td>1978</td>	<td>Тандем</td>	<td>1:43.49,3</td>	<td>&nbsp</td>	<td>&nbsp</td></tr>
+<tr><td>28</td>	<td>Павлов Виктор</td>	<td>1953</td>	<td>Киров</td>	<td>1:44.58,5</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>29</td>	<td>Уланов Сергей</td>	<td>1972</td>	<td>Киров</td>	<td>1:52.28,1</td>	<td>&nbsp</td>	<td>&nbsp</td></tr>
+<tr><td>30</td>	<td>Смагин Юрий</td>	<td>1953</td>	<td>Омутнинск</td>	<td>1:53.30,0</td>	<td>&nbsp</td>	<td>&nbsp</td></tr>
+<tr><td>31</td>	<td>Шихалев Алексей</td>	<td>1963</td>	<td>Киров</td>	<td>1:57.28,7</td>	<td>&nbsp</td>	<td>&nbsp</td></tr>
+<tr><td>32</td>	<td>Ренжин Петр</td>	<td>1950</td>	<td>Киров</td>	<td>1:57.48,7</td>	<td>&nbsp</td>	<td>&nbsp</td></tr>
+<tr><td>33</td>	<td>Коковин Александр</td>	<td>1973</td>	<td>Киров</td>	<td>1:59.52,8</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>34</td>	<td>Кокорин Александр</td>	<td>1959</td>	<td>Юрья</td>	<td>2:05.14,5</td>	<td>&nbsp</td>	<td>&nbsp</td></tr>
+<tr><td>35</td>	<td>Косолапов Игорь</td>	<td>1941</td>	<td>Родина</td>	<td>2:19.07,0</td>	<td>&nbsp</td>	<td>&nbsp</td></tr>
+<tr><td>36</td>	<td>Мухлынин Владимир</td>	<td>1948</td>	<td>Киров</td>	<td>2:19.25,3</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
 						
 </tbody></table></div></ul></li><li><a href="#">Марафон</a><ul><div><table cellpadding="0" class="t1"><thead id="thd15"> <tr><th id="x99">Рейтинг</th><th id="x100">Фамилия Имя</th><th id="x101">Год</th><th id="x102">Организация</th><th id="x103">Результат</th><th id="x104">Разряд</th><th id="x105">Тренер</th></tr></thead><tbody id="tbd15"><th id="z99">Рейтинг</th><th id="z100">Фамилия Имя</th><th id="z101">Год</th><th id="z102">Организация</th><th id="z103">Результат</th><th id="z104">Разряд</th><th id="z105">Тренер</th></tr>						
 						
-<tr><td>1</td>	<td>Кайсин Геннадий</td>	<td>1959</td>	<td>Кирово-Чепецк</td>	<td>3:02.06,0</td>	<td>III</td>	<td>Самостоятельно</td></tr>
-<tr><td>2</td>	<td>Маринкевич Александр</td>	<td>1958</td>	<td>КЛБ Родина</td>	<td>3:06.06,0</td>	<td>III</td>	<td>Самостоятельно</td></tr>
-<tr><td>3</td>	<td>Михеев Геннадий</td>	<td>1949</td>	<td>Кирово-Чепецк</td>	<td>3:22.05,0</td>	<td>III</td>	<td>Самостоятельно</td></tr>
-<tr><td>4</td>	<td>Кунилов Алексей</td>	<td>1981</td>	<td>КЛБ Родина</td>	<td>3:23.28,0</td>	<td>III</td>	<td>Самостоятельно</td></tr>
-<tr><td>5</td>	<td>Татарских Сергей</td>	<td>1952</td>	<td>КЛБ Родина</td>	<td>3:44.15,0</td>	<td>III</td>	<td>&nbsp</td></tr>
-<tr><td>6</td>	<td>Кочуров Юрий</td>	<td>1951</td>	<td>КЛБ Родина</td>	<td>4:12.00,0</td>	<td>III</td>	<td>&nbsp</td></tr>
-<tr><td>7</td>	<td>Сырцев Михаил</td>	<td>1952</td>	<td>Киров</td>	<td>4:19.58,0</td>	<td>III</td>	<td>&nbsp</td></tr>
-<tr><td>8</td>	<td>Колбин Владимир</td>	<td>1951</td>	<td>КЛБ Родина</td>	<td>4:23.36,0</td>	<td>III</td>	<td>&nbsp</td></tr>
-<tr><td>9</td>	<td>Косолапов Игорь</td>	<td>1941</td>	<td>КЛБ Родина</td>	<td>5:01.00,0</td>	<td>III</td>	<td>Наймушин В.М.</td></tr>
+<tr><td>1</td>	<td>Алцыбеев Сергей</td>	<td>1990</td>	<td>Киров</td>	<td>2:43.51,0</td>	<td>II</td>	<td>Самостоятельно</td></tr>
+<tr><td>2</td>	<td>Калинин Андрей</td>	<td>1993</td>	<td>ВятСШОР/ВятГУ</td>	<td>2:59.27,0</td>	<td>III</td>	<td>Трушков А.Н./Трушкова М.В.</td></tr>
+<tr><td>3</td>	<td>Протасов Герман</td>	<td>1963</td>	<td>МЧС</td>	<td>3:00.49,0</td>	<td>III</td>	<td>Самостоятельно</td></tr>
+<tr><td>4</td>	<td>Кайсин Геннадий</td>	<td>1959</td>	<td>Кирово-Чепецк</td>	<td>3:02.55,0</td>	<td>III</td>	<td>Самостоятельно</td></tr>
+<tr><td>5</td>	<td>Маринкевич Александр</td>	<td>1958</td>	<td>КЛБ Родина</td>	<td>3:06.06,0</td>	<td>III</td>	<td>Самостоятельно</td></tr>
+<tr><td>6</td>	<td>Харюшин Дмитрий</td>	<td>1964</td>	<td>Горэлектросеть</td>	<td>3:11.43,0</td>	<td>III</td>	<td>Самостоятельно</td></tr>
+<tr><td>7</td>	<td>Михеев Геннадий</td>	<td>1949</td>	<td>Кирово-Чепецк</td>	<td>3:22.05,0</td>	<td>III</td>	<td>Самостоятельно</td></tr>
+<tr><td>8</td>	<td>Окулов Игорь</td>	<td>1972</td>	<td>Киров</td>	<td>3:23.04,0</td>	<td>III</td>	<td>Самостоятельно</td></tr>
+<tr><td>9</td>	<td>Кунилов Алексей</td>	<td>1981</td>	<td>КЛБ Родина</td>	<td>3:23.28,0</td>	<td>III</td>	<td>Самостоятельно</td></tr>
+<tr><td>10</td>	<td>Сунцов Евгений</td>	<td>1977</td>	<td>КФК Улитка</td>	<td>3:25.36,0</td>	<td>III</td>	<td>Самостоятельно</td></tr>
+<tr><td>11</td>	<td>Хаустов Андрей</td>	<td>1964</td>	<td>Киров</td>	<td>3:25.57,0</td>	<td>III</td>	<td>&nbsp</td></tr>
+<tr><td>12</td>	<td>Бабурин Александр</td>	<td>1952</td>	<td>Омутнинск</td>	<td>3:35.32,0</td>	<td>III</td>	<td>&nbsp</td></tr>
+<tr><td>13</td>	<td>Скобкарев Дмитрий</td>	<td>1981</td>	<td>Омутнинск</td>	<td>3:36.48,0</td>	<td>III</td>	<td>&nbsp</td></tr>
+<tr><td>14</td>	<td>Макаров Вадим</td>	<td>1981</td>	<td>Киров</td>	<td>3:39.53,0</td>	<td>III</td>	<td>Самостоятельно</td></tr>
+<tr><td>15</td>	<td>Татарских Сергей</td>	<td>1952</td>	<td>КЛБ Родина</td>	<td>3:44.15,0</td>	<td>III</td>	<td>&nbsp</td></tr>
+<tr><td>16</td>	<td>Сырцев Михаил</td>	<td>1956</td>	<td>Киров</td>	<td>3:55.16,0</td>	<td>III</td>	<td>Самостоятельно</td></tr>
+<tr><td>17</td>	<td>Мамаев Максим</td>	<td>1991</td>	<td>МЧС</td>	<td>3:56.51,0</td>	<td>III</td>	<td>Самостоятельно</td></tr>
+<tr><td>18</td>	<td>Лагунов Игорь</td>	<td>1970</td>	<td>Динамо</td>	<td>4:06.29,0</td>	<td>III</td>	<td>Самостоятельно</td></tr>
+<tr><td>19</td>	<td>Петров Виктор</td>	<td>1960</td>	<td>Кирово-Чепецк</td>	<td>4:06.59,0</td>	<td>III</td>	<td>Самостоятельно</td></tr>
+<tr><td>20</td>	<td>Кочуров Юрий</td>	<td>1951</td>	<td>Киров</td>	<td>4:13.10,0</td>	<td>III</td>	<td>Самостоятельно</td></tr>
+<tr><td>21</td>	<td>Сырцев Михаил</td>	<td>1952</td>	<td>Киров</td>	<td>4:19.58,0</td>	<td>III</td>	<td>&nbsp</td></tr>
+<tr><td>22</td>	<td>Косолапов Игорь</td>	<td>1941</td>	<td>КЛБ Родина</td>	<td>5:01.00,0</td>	<td>III</td>	<td>Наймушин В.М.</td></tr>
 
 </tbody></table></div></ul></li><li><a href="#">6-часовой бег</a><ul><div><table cellpadding="0" class="t1"><thead id="thd16"> <tr><th id="x106">Рейтинг</th><th id="x107">Фамилия Имя</th><th id="x108">Год</th><th id="x109">Организация</th><th id="x110">Результат</th><th id="x111">Разряд</th><th id="x112">Тренер</th></tr></thead><tbody id="tbd16"><th id="z106">Рейтинг</th><th id="z107">Фамилия Имя</th><th id="z108">Год</th><th id="z109">Организация</th><th id="z110">Результат</th><th id="z111">Разряд</th><th id="z112">Тренер</th></tr>						
 						
-<tr><td>1</td>	<td>Алцыбеев Сергей</td>	<td>1990</td>	<td>Киров</td>	<td>73 000</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
-<tr><td>2</td>	<td>Маринкевич Александр</td>	<td>1958</td>	<td>Киров</td>	<td>66 860</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
-<tr><td>3</td>	<td>Кайсин Геннадий</td>	<td>1959</td>	<td>Кирово-Чепецк</td>	<td>64 632</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
-<tr><td>4</td>	<td>Михеев Геннадий</td>	<td>1949</td>	<td>Кирово-Чепецк</td>	<td>63 000</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
-<tr><td>5</td>	<td>Кунилов Алексей</td>	<td>1981</td>	<td>КЛБ Родина</td>	<td>61 253</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
-<tr><td>6</td>	<td>Татарских Сергей</td>	<td>1952</td>	<td>Киров</td>	<td>59 237</td>	<td>&nbsp</td>	<td>&nbsp</td></tr>
-<tr><td>7</td>	<td>Косолапов Игорь</td>	<td>1941</td>	<td>Киров</td>	<td>52 000</td>	<td>&nbsp</td>	<td>Наймушин В.М.</td></tr>
-<tr><td>8</td>	<td>Наймушин Владимир</td>	<td>1954</td>	<td>КЛБ Родина</td>	<td>51 668</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>1</td>	<td>Алцыбеев Сергей</td>	<td>1990</td>	<td>Киров</td>	<td>73000</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>2</td>	<td>Маринкевич Александр</td>	<td>1958</td>	<td>Киров</td>	<td>66860</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>3</td>	<td>Кайсин Геннадий</td>	<td>1959</td>	<td>Кирово-Чепецк</td>	<td>64632</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>4</td>	<td>Михеев Геннадий</td>	<td>1949</td>	<td>Кирово-Чепецк</td>	<td>63000</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>5</td>	<td>Кунилов Алексей</td>	<td>1981</td>	<td>КЛБ Родина</td>	<td>61253</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>6</td>	<td>Татарских Сергей</td>	<td>1952</td>	<td>Киров</td>	<td>59237</td>	<td>&nbsp</td>	<td>&nbsp</td></tr>
+<tr><td>7</td>	<td>Косолапов Игорь</td>	<td>1941</td>	<td>Киров</td>	<td>52000</td>	<td>&nbsp</td>	<td>Наймушин В.М.</td></tr>
+<tr><td>8</td>	<td>Наймушин Владимир</td>	<td>1954</td>	<td>КЛБ Родина</td>	<td>51668</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
 						
 </tbody></table></div></ul></li><li><a href="#">100 000 метров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd17"> <tr><th id="x113">Рейтинг</th><th id="x114">Фамилия Имя</th><th id="x115">Год</th><th id="x116">Организация</th><th id="x117">Результат</th><th id="x118">Разряд</th><th id="x119">Тренер</th></tr></thead><tbody id="tbd17"><th id="z113">Рейтинг</th><th id="z114">Фамилия Имя</th><th id="z115">Год</th><th id="z116">Организация</th><th id="z117">Результат</th><th id="z118">Разряд</th><th id="z119">Тренер</th></tr>						
 						
-<tr><td>1</td>	<td>Макаров Владислав</td>	<td>1991</td>	<td>ВятСШОР</td>	<td>7:27.49,0</td>	<td>I</td>	<td>Пахомов А.М.</td></tr>
+<tr><td>1</td>	<td>Кокорин Иван</td>	<td>1991</td>	<td>ВятСШОР</td>	<td>9:22.40,0</td>	<td>II</td>	<td>Пахомов А.М.</td></tr>
 						
 </tbody></table></div></ul></li><li><a href="#">Суточный бег</a><ul><div><table cellpadding="0" class="t1"><thead id="thd18"> <tr><th id="x120">Рейтинг</th><th id="x121">Фамилия Имя</th><th id="x122">Год</th><th id="x123">Организация</th><th id="x124">Результат</th><th id="x125">Разряд</th><th id="x126">Тренер</th></tr></thead><tbody id="tbd18"><th id="z120">Рейтинг</th><th id="z121">Фамилия Имя</th><th id="z122">Год</th><th id="z123">Организация</th><th id="z124">Результат</th><th id="z125">Разряд</th><th id="z126">Тренер</th></tr>						
 						
-<tr><td>1</td>	<td>Макаров Владислав</td>	<td>1991</td>	<td>ВятСШОР</td>	<td>224 543</td>	<td>КМС</td>	<td>Пахомов А.М.</td></tr>
-<tr><td>2</td>	<td>Маринкевич Александр</td>	<td>1958</td>	<td>Киров</td>	<td>182 850</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
-<tr><td>3</td>	<td>Татарских Сергей</td>	<td>1952</td>	<td>Киров</td>	<td>170 837</td>	<td>&nbsp</td>	<td>&nbsp</td></tr>
-<tr><td>4</td>	<td>Кунилов Алексей</td>	<td>1981</td>	<td>Киров</td>	<td>165 600</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
-<tr><td>5</td>	<td>Михеев Геннадий</td>	<td>1949</td>	<td>Кирово-Чепецк</td>	<td>131 487</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
-<tr><td>6</td>	<td>Косолапов Игорь</td>	<td>1941</td>	<td>Киров</td>	<td>126 800</td>	<td>&nbsp</td>	<td>Наймушин В.М.</td></tr>
-<tr><td>7</td>	<td>Кокорин Иван</td>	<td>1991</td>	<td>ВятСШОР</td>	<td>104 400</td>	<td>&nbsp</td>	<td>Пахомов А.М.</td></tr>
-<tr><td>8</td>	<td>Наймушин Владимир</td>	<td>1954</td>	<td>Киров</td>	<td>85 217</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>1</td>	<td>Макаров Владислав</td>	<td>1991</td>	<td>ВятСШОР</td>	<td>224543</td>	<td>КМС</td>	<td>Пахомов А.М.</td></tr>
+<tr><td>2</td>	<td>Татарских Сергей</td>	<td>1952</td>	<td>Киров</td>	<td>184025</td>	<td>&nbsp</td>	<td>&nbsp</td></tr>
+<tr><td>3</td>	<td>Маринкевич Александр</td>	<td>1958</td>	<td>Киров</td>	<td>182850</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>4</td>	<td>Кунилов Алексей</td>	<td>1981</td>	<td>Киров</td>	<td>165600</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>5</td>	<td>Косолапов Игорь</td>	<td>1941</td>	<td>Киров</td>	<td>140018</td>	<td>&nbsp</td>	<td>Наймушин В.М.</td></tr>
+<tr><td>6</td>	<td>Михеев Геннадий</td>	<td>1949</td>	<td>Кирово-Чепецк</td>	<td>131487</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+<tr><td>7</td>	<td>Кокорин Иван</td>	<td>1991</td>	<td>ВятСШОР</td>	<td>104400</td>	<td>&nbsp</td>	<td>Пахомов А.М.</td></tr>
+<tr><td>8</td>	<td>Наймушин Владимир</td>	<td>1954</td>	<td>Киров</td>	<td>85217</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
 						
+</tbody></table></div></ul></li><li><a href="#">Эстафета 4 по 100 метров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd25"> <tr><th id="x169">Рейтинг</th><th id="x170">Фамилия Имя</th><th id="x171">Год</th><th id="x172">Организация</th><th id="x173">Результат</th><th id="x174">Разряд</th><th id="x175">Тренер</th></tr></thead><tbody id="tbd25"><th id="z169">Рейтинг</th><th id="z170">Фамилия Имя</th><th id="z171">Год</th><th id="z172">Организация</th><th id="z173">Результат</th><th id="z174">Разряд</th><th id="z175">Тренер</th></tr>						
+
+<tr><td>1</td>	<td>Суворов Николай</td>	<td>1935</td>	<td>Кирс</td>	<td>1.15,5</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
+
 </tbody></table></div></ul></li><li><a href="#">Эстафета 4 по 200 метров</a><ul><div><table cellpadding="0" class="t1"><thead id="thd20"> <tr><th id="x134">Рейтинг</th><th id="x135">Фамилия Имя</th><th id="x136">Год</th><th id="x137">Организация</th><th id="x138">Результат</th><th id="x139">Разряд</th><th id="x140">Тренер</th></tr></thead><tbody id="tbd20"><th id="z134">Рейтинг</th><th id="z135">Фамилия Имя</th><th id="z136">Год</th><th id="z137">Организация</th><th id="z138">Результат</th><th id="z139">Разряд</th><th id="z140">Тренер</th></tr>						
 						
 <tr><td>1</td>	<td>Куклин Андрей</td>	<td>1989</td>	<td>ДЮСШ-2</td>	<td>1.33,3</td>	<td>II</td>	<td>Следников Е.В./Следникова Е.Л./Яровиков М.Н.</td></tr>
@@ -240,12 +309,17 @@ window.onscroll = function() {
 </tbody></table></div></ul></li><li><a href="#">Прыжки в длину</a><ul><div><table cellpadding="0" class="t1"><thead id="thd19"> <tr><th id="x127">Рейтинг</th><th id="x128">Фамилия Имя</th><th id="x129">Год</th><th id="x130">Организация</th><th id="x131">Результат</th><th id="x132">Разряд</th><th id="x133">Тренер</th></tr></thead><tbody id="tbd19"><th id="z127">Рейтинг</th><th id="z128">Фамилия Имя</th><th id="z129">Год</th><th id="z130">Организация</th><th id="z131">Результат</th><th id="z132">Разряд</th><th id="z133">Тренер</th></tr>						
 						
 <tr><td>1</td>	<td>Усатов Александр</td>	<td>1991</td>	<td>Юность/МЧС</td>	<td>6,13</td>	<td>III</td>	<td>Егоров А.А.</td></tr>
-<tr><td>2</td>	<td>Першин Николай</td>	<td>1991</td>	<td>ВятГУ/КФК РББ</td>	<td>6,04</td>	<td>III</td>	<td>Крутиков А.К.</td></tr>
+<tr><td>2</td>	<td>Першин Николай</td>	<td>1991</td>	<td>ВятСШОР/ВятГУ</td>	<td>6,04</td>	<td>III</td>	<td>Пахомов А.М.</td></tr>
 <tr><td>3</td>	<td>Казаковцев Владислав</td>	<td>1991</td>	<td>ВятСШОР</td>	<td>5,97</td>	<td>III</td>	<td>Наговицына Е.В.</td></tr>
 <tr><td>4</td>	<td>Щекутьев Евгений</td>	<td>1991</td>	<td>КФК РББ</td>	<td>5,66</td>	<td>III</td>	<td>Крутиков А.К.</td></tr>
-<tr><td>5</td>	<td>Коновалов Юрий</td>	<td>1985</td>	<td>ВятГГУ</td>	<td>5,44</td>	<td>I юн</td>	<td>Михайлова Л.А.</td></tr>
-<tr><td>6</td>	<td>Федотов Григорий</td>	<td>1993</td>	<td>ВятГУ/КФК РББ</td>	<td>4,99</td>	<td>II юн</td>	<td>Крутиков А.К.</td></tr>
-<tr><td>7</td>	<td>Балобанов Анатолий</td>	<td>1955</td>	<td>Самостоятельно</td>	<td>4,98</td>	<td>II юн</td>	<td>Самостоятельно</td></tr>
+<tr><td>5</td>	<td>Леонтьев Даниил</td>	<td>1991</td>	<td>Юность/Фаленки/КФК РББ</td>	<td>5,59</td>	<td>I юн</td>	<td>Каратаева М.П.</td></tr>
+<tr><td>6</td>	<td>Балобанов Анатолий</td>	<td>1955</td>	<td>Самостоятельно</td>	<td>5,56</td>	<td>I юн</td>	<td>Самостоятельно</td></tr>
+<tr><td>7</td>	<td>Коновалов Юрий</td>	<td>1985</td>	<td>ВятГГУ</td>	<td>5,44</td>	<td>I юн</td>	<td>Михайлова Л.А.</td></tr>
+<tr><td>8</td>	<td>Федотов Григорий</td>	<td>1993</td>	<td>ВятГУ/КФК РББ</td>	<td>4,99</td>	<td>II юн</td>	<td>Крутиков А.К.</td></tr>
+
+</tbody></table></div></ul></li><li><a href="#">Тройной прыжок</a><ul><div><table cellpadding="0" class="t1"><thead id="thd27"> <tr><th id="x183">Рейтинг</th><th id="x184">Фамилия Имя</th><th id="x185">Год</th><th id="x186">Организация</th><th id="x187">Результат</th><th id="x188">Разряд</th><th id="x189">Тренер</th></tr></thead><tbody id="tbd27"><th id="z183">Рейтинг</th><th id="z184">Фамилия Имя</th><th id="z185">Год</th><th id="z186">Организация</th><th id="z187">Результат</th><th id="z188">Разряд</th><th id="z189">Тренер</th></tr>						
+
+<tr><td>1</td>	<td>Суворов Николай</td>	<td>1935</td>	<td>Кирс</td>	<td>5,11</td>	<td>&nbsp</td>	<td>Самостоятельно</td></tr>
 
 </tbody></table></div></ul></li><li><a href="#">Метание диска</a><ul><div><table cellpadding="0" class="t1"><thead id="thd21"> <tr><th id="x141">Рейтинг</th><th id="x142">Фамилия Имя</th><th id="x143">Год</th><th id="x144">Организация</th><th id="x145">Результат</th><th id="x146">Разряд</th><th id="x147">Тренер</th></tr></thead><tbody id="tbd21"><th id="z141">Рейтинг</th><th id="z142">Фамилия Имя</th><th id="z143">Год</th><th id="z144">Организация</th><th id="z145">Результат</th><th id="z146">Разряд</th><th id="z147">Тренер</th></tr>						
 						
