@@ -1,0 +1,14 @@
+.menu_container {position:relative; left:5px; top:3px; padding:0px; margin:0px;}
+
+.menu {position:absolute; padding:0px; margin:0px; list-style:none; width: 250px;}
+.menu li {list-style:none; width: 250px; padding:0px; margin:0px; background: none;}
+.menu ul {position:relative; left: 20px; padding:0px; margin:0px;}
+
+.menu li ul li {padding:0px; margin:0px; height: 14px;}
+
+.menu a {font:normal bold 11px Arial,Helvetica,sans-serif; color:#FFF; text-decoration:none; padding:0px; margin:0px;}
+
+a.s1 {width: 189px; display: block; height: 19px;}
+a.s2 {width: 0px; display: none; height: 0px;}
+
+li.not {position:absolute; left: -9999px;}
